@@ -1,3 +1,9 @@
+shared-mime-info (1.8-1+deb9u1pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 03 Aug 2018 18:42:53 +0000
+
 shared-mime-info (1.8-1+deb9u1) stretch; urgency=medium
 
   * Non-maintainer upload.
