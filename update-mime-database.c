@@ -49,6 +49,9 @@
  * delete. It is also used to warn about invalid MIME types.
  */
 const char *media_types[] = {
+	"all",
+	"uri",
+	"print",
 	"text",
 	"application",
 	"image",
@@ -61,6 +64,7 @@ const char *media_types[] = {
 	"x-content",
 	"x-epoc",
 	"x-scheme-handler",
+	"font",
 };
 
 /* Represents a MIME type */
@@ -264,7 +268,7 @@ static Type *get_type(const char *name, GError **error)
 			return type;
 	}
 
-	g_warning("Unknown media type in type '%s'", name);
+	g_message("Unknown media type in type '%s'", name);
 
 	return type;
 }
@@ -703,6 +707,8 @@ static void load_source_file(const char *filename)
 		g_warning(_("Failed to parse '%s'"), filename);
 		return;
 	}
+
+	g_message("Parsing source file %s...", filename);
 
 	root = xmlDocGetRootElement(doc);
 
@@ -3438,7 +3444,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write strings");
       return FALSE;
     }
-  g_message ("Wrote %d strings at %x - %x\n", 
+  g_message ("Wrote %d strings at %x - %x",
 	   g_hash_table_size (strings), strings_offset, offset);
 
   alias_offset = offset;
@@ -3447,7 +3453,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write alias list");
       return FALSE;
     }
-  g_message ("Wrote aliases at %x - %x\n", alias_offset, offset);
+  g_message ("Wrote aliases at %x - %x", alias_offset, offset);
 
   parent_offset = offset;
   if (!write_parent_cache (cache, strings, &offset))
@@ -3455,7 +3461,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write parent list");
       return FALSE;
     }
-  g_message ("Wrote parents at %x - %x\n", parent_offset, offset);
+  g_message ("Wrote parents at %x - %x", parent_offset, offset);
 
   literal_offset = offset;
   if (!write_literal_cache (cache, strings, &offset))
@@ -3463,7 +3469,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write literal list");
       return FALSE;
     }
-  g_message ("Wrote literal globs at %x - %x\n", literal_offset, offset);
+  g_message ("Wrote literal globs at %x - %x", literal_offset, offset);
 
   suffix_offset = offset;
   if (!write_suffix_cache (cache, strings, &offset))
@@ -3471,7 +3477,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write suffix list");
       return FALSE;
     }
-  g_message ("Wrote suffix globs at %x - %x\n", suffix_offset, offset);
+  g_message ("Wrote suffix globs at %x - %x", suffix_offset, offset);
 
   glob_offset = offset;
   if (!write_glob_cache (cache, strings, &offset))
@@ -3479,7 +3485,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write glob list");
       return FALSE;
     }
-  g_message ("Wrote full globs at %x - %x\n", glob_offset, offset);
+  g_message ("Wrote full globs at %x - %x", glob_offset, offset);
 
   magic_offset = offset;
   if (!write_magic_cache (cache, strings, &offset))
@@ -3487,7 +3493,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write magic list");
       return FALSE;
     }
-  g_message ("Wrote magic at %x - %x\n", magic_offset, offset);
+  g_message ("Wrote magic at %x - %x", magic_offset, offset);
 
   namespace_offset = offset;
   if (!write_namespace_cache (cache, strings, &offset))
@@ -3495,7 +3501,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write namespace list");
       return FALSE;
     }
-  g_message ("Wrote namespace list at %x - %x\n", namespace_offset, offset);
+  g_message ("Wrote namespace list at %x - %x", namespace_offset, offset);
 
   icons_list_offset = offset;
   if (!write_icons_cache (cache, strings, icon_hash, &offset))
@@ -3503,7 +3509,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write icons list");
       return FALSE;
     }
-  g_message ("Wrote icons list at %x - %x\n", icons_list_offset, offset);
+  g_message ("Wrote icons list at %x - %x", icons_list_offset, offset);
 
   generic_icons_list_offset = offset;
   if (!write_icons_cache (cache, strings, generic_icon_hash, &offset))
@@ -3511,7 +3517,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write generic icons list");
       return FALSE;
     }
-  g_message ("Wrote generic icons list at %x - %x\n", generic_icons_list_offset, offset);
+  g_message ("Wrote generic icons list at %x - %x", generic_icons_list_offset, offset);
 
   type_offset = offset;
   if (!write_types_cache (cache, strings, types, &offset))
@@ -3519,7 +3525,7 @@ write_cache (FILE *cache)
       g_warning ("Failed to write types list");
       return FALSE;
     }
-  g_message ("Wrote types list at %x - %x\n", type_offset, offset);
+  g_message ("Wrote types list at %x - %x", type_offset, offset);
 
   rewind (cache);
   offset = 0; 

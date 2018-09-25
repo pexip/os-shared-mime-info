@@ -1,9 +1,33 @@
-shared-mime-info (1.8-1+deb9u1) stretch; urgency=medium
+shared-mime-info (1.10-1) unstable; urgency=medium
 
-  * Non-maintainer upload.
+  * New upstream release.
+  * Updated Vcs fields for move to git and salsa.
+  * Add gbp.conf.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 25 Sep 2018 11:55:36 +0200
+
+shared-mime-info (1.9-2) unstable; urgency=medium
+
+  * Disable parallel builds. There seems to be a race that causes
+    intermitent build failures.
+  * debian/patches/001_POTFILES.skip.patch: Dropped, no longer needed.
+  * Bump Standards-Version to 4.1.1; no changes needed.
+  * Drop obsolete prerm script.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 10 Oct 2017 22:56:05 +0200
+
+shared-mime-info (1.9-1) unstable; urgency=medium
+
+  * New upstream release.
   * Switch dpkg trigger to noawait. Closes: #864953.
+  * Drop the update-mime-databaser wrapper hack, the trigger migration
+    should be complete and maintainer scripts shouldn't be calling
+    update-mime-database directly anymore.
+  * Switch from CDBS to dh.
+  * Switch to debhelper compat 10.
+  * Bump Standards-Version to 4.1.0; no changes needed.
 
- -- Adrian Bunk <bunk@debian.org>  Wed, 14 Mar 2018 20:01:56 +0200
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Thu, 28 Sep 2017 00:23:08 +0200
 
 shared-mime-info (1.8-1) unstable; urgency=medium
 

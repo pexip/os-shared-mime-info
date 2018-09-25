@@ -1,3 +1,61 @@
+shared-mime-info 1.10 (2018-28-06)
+* Add mime-type for MJPEG raw streams
+* Add MPEG-4 Ringtone mime-type
+* Add mime-type for HEIF images
+* Add application/vnd.sqlite3, application/x-sqlite2 IANA types
+* Add application/pkcs8-encrypted
+* Add audio/usac
+* Add application/vnd.youtube.yt
+* Add mime-types for raw floppy disk images
+* Add aliases for SAP and HFE floppy images mime-types
+* Use new application/vnd.comicbook-rar IANA type
+* Remove magic from STL binary
+* Add *.adts and *.ass globs from IANA to audio/aac
+* Use new IANA type for application/xliff+xml
+* Use new IANA type for model/stl
+* Add text/x-perl alias to application/x-perl
+* Bump priority for our DjVu mime-types
+* Differentiate Neo Geo Pocket Color ROMs from non-Color ones
+* Remove *.bin from application/octet-stream
+* Add an application/xps alias for application/oxps
+* Change Qt Linguist file type to text/vnd.qt.linguist
+* Fix the QML magic
+
+Tools:
+- Don't warn with unknown top level type names
+- Look in obsolete KDE sub-dirs for clean up opportunities
+- Add some debug when parsing XML package files
+
+Spec:
+- ASCII check should be done with 128 leading bytes, not 32 bytes
+
+shared-mime-info 1.9 (2017-18-09)
+* Add x-systemd-unit and x-dbus-service MIME types
+* Fix magic for application/x-java-keystore on little endian
+* Add mime-type for STL 3D models and GCODE
+* Add application/x-executable as a supertype of application/ecmascript
+* Add shebang magic for gjs JavaScript files
+* Add a mimetype for Khronos texture files
+* Add a mime-type for Famicom Disk System images
+* Add "font" top level type, and use IANA registered type for TTF,
+  OTF, WOFF, TTC and WOFF2
+* Add OpenCL mime-type
+* Add text/x-python3 content type
+* Add Audible.com mime type
+* Add application/x-atari-lynx-rom
+* Add application/x-wonderswan-rom
+* Add application/x-virtual-boy-rom
+* Better JPEG 2000 MIME type support
+* Add support for GIMP data files (.gbr, .gih, .pat)
+* Add an alias for Adobe Illustrator formats
+* Add *.mjs glob for Javascript
+* Rename application/x-trig to application/trig
+* Rename Panasonic RAW image mime-types to image/x-panasonic-rw*
+* Change the preferred suffix for image/x-tga from icb to tga
+* Correct "PostScript" capitalisation
+* Add mimetype for AppImage Type 2
+* Remove AppImage glob with different casing
+
 shared-mime-info 1.8 (2016-12-05)
 * Add Flatpak-related mime-types
 * Add mime-type for a number of Thomson-related disk (and cassette) images
