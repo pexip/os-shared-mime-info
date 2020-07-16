@@ -1,3 +1,9 @@
+shared-mime-info (1.10-1pexip2) pexip; urgency=medium
+
+  * Rebuild in buster environment
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Thu, 16 Jul 2020 06:54:13 +0000
+
 shared-mime-info (1.10-1pexip1) pexip; urgency=medium
 
   * Migrate to Buster
