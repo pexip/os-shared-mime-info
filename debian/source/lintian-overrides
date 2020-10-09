@@ -1,0 +1,2 @@
+# test file to verify MIME magic
+shared-mime-info: source-is-missing tests/mime-detection/subshapes.swf

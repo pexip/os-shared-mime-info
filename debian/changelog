@@ -1,3 +1,32 @@
+shared-mime-info (2.0-1) unstable; urgency=medium
+
+  [ Olivier Tilloy ]
+  * New upstream release. Closes: #965986.
+  * debian/control: add build dependencies on meson and xmlto
+  * debian/shared-mime-info.docs, debian/rules: updates to reflect where data
+    files are now stored upstream
+  * debian/patches/make-pc-file-dataonly.patch: make the pc file
+    architecture-independent
+  * debian/patches/upstream-fix-pkg-config-installation-path.patch: cherry-pick
+    an upstream commit to fix the pc file's installation path
+
+  [ Emilio Pozuelo Monfort ]
+  * Add lintian override for test file with no source.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 09 Oct 2020 19:26:56 +0200
+
+shared-mime-info (1.15-1) unstable; urgency=medium
+
+  * New upstream release. Closes: #954669.
+  * Update watch file for gitlab.freedesktop.org.
+  * Update build-dependencies.
+  * Remove ancient patches changing the magic database. Those should be
+    reported upstream if they're still present.
+  * Switch to debhelper-compat and bump compat to 12.
+  * Don't hardcode full command path in postinst.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Tue, 24 Mar 2020 16:58:21 +0100
+
 shared-mime-info (1.10-1) unstable; urgency=medium
 
   * New upstream release.

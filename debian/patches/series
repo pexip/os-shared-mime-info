@@ -1,2 +1,2 @@
-061_tex-matlab.patch
-150_mps-mime.patch
+upstream-fix-pkg-config-installation-path.patch
+make-pc-file-dataonly.patch
