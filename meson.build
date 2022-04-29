@@ -1,14 +1,13 @@
 
 project('shared-mime-info',
     'c',
-    version: '2.0',
+    version: '2.2',
     meson_version: '>=0.49.0'
 )
 
 config = configuration_data()
 
 i18n = import('i18n')
-pkgconfig = import('pkgconfig')
 
 cc = meson.get_compiler('c')
 
@@ -21,9 +20,8 @@ config.set_quoted('VERSION', meson.project_version())
 ###############################################################################
 # Find tools
 
-itstool = find_program('itstool')
 xmllint = find_program('xmllint')
-xmlto   = find_program('xmlto')
+xmlto   = find_program('xmlto', required: false)
 
 ###############################################################################
 # Find xdgmime
@@ -58,15 +56,26 @@ foreach function : check_functions
 endforeach
 
 
-libxml = dependency('libxml-2.0',   version: '>=2.4')
-glib2  = dependency('glib-2.0',     version: '>=2.6.0')
-
-gio = dependency('gio-2.0', required: false)
-
 subdir('po')
 subdir('data')
-subdir('src')
+if get_option('build-tools')
+    libxml = dependency('libxml-2.0',   version: '>=2.4')
+    glib2  = dependency('glib-2.0',     version: '>=2.6.0')
+
+    gio = dependency('gio-2.0', required: false)
+    subdir('src')
+endif
 subdir('tests')
+
+configure_file(
+    input: 'shared-mime-info.pc.in',
+    output: '@BASENAME@',
+    configuration: {
+        'prefix': get_option('prefix'),
+        'VERSION': meson.project_version()
+    },
+    install_dir: get_option('datadir') / 'pkgconfig'
+)
 
 if get_option('update-mimedb')
     upd_tool = (meson.is_cross_build()

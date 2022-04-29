@@ -20,8 +20,8 @@ A few ground rules for people interested in adding new mime-types.
 Translations
 ------------
 
-Translations should go through Transifex.net, and the freedesktop.org team:
-http://www.transifex.net/projects/p/shared-mime-info/
+Translations should go through Transifex.com, and the freedesktop.org team:
+http://www.transifex.com/projects/p/shared-mime-info/
 
 Filing bugs
 -----------
@@ -35,9 +35,14 @@ more test files to be added to the test suite.
 Test suite
 ----------
 
-You need to have xdgmime checked out [1] and compiled. By default, the build
-system will expect the source directory to be at the same level as
-shared-mime-info. `../xdgmime/src/test-mime-data` will be run against
+You need to have xdgmime [1] checked out and compiled. In the shared-mime-info
+git repository, getting xdgmime is taken care of by using a git submodule; run
+`git submodule update --init` after cloning the shared-mime-info repo. If
+you wish to keep the submodule automatically up to date on pull, `git config
+submodule.recurse true` in the shared-mime-info dir helps with that.
+
+By default, the build system will expect the xdgmime directory to be in the
+shared-mime-info directory. `./xdgmime/src/test-mime-data` is run against
 `tests/mime-detection/list`. An alternate path to xdgmime can be passed by
 using the `xdgmime-path` meson option such as `-Dxdgmime-path=/path/to/xdgmime`.
 
@@ -61,7 +66,15 @@ Releasing
 
 - Run `ninja shared-mime-info-pot`, `./po/check_translations.sh` and
   `./po/update_translations.sh` before release
-- Upload to shared-mime-info gitlab
+- Commit and push to shared-mime-info gitlab
+- Update version number in `meson.build`
+- Add changelog to `NEWS`
+- Commit, make a merge request, wait for CI to ensure `meson dist` works, then merge it.
+- Tag and push the tag
+- Go to https://gitlab.freedesktop.org/xdg/shared-mime-info/-/releases and click "New release"
+- Fill in version number (3 times), paste NEWS, confirm
+- Attach the tarball from the CI build artifact
+- tag and push the tag
 
 Updating the spec on the website
 --------------------------------
