@@ -1,3 +1,77 @@
+shared-mime-info 2.0 (2020-06-05)
+* Port build system to meson, and ship test suite with tarball
+* Install ITS file to allow gettext to translate mime-type descriptions
+* Add BPS and IPS patch formats
+* Lower weight for "use strict" and similar in the perl mimetype
+* Add new magic for Sega Mega Drive ROMs
+* Add Common Lisp mime-type
+* Rename text/x-tcl to text/tcl
+* Add text/vbscript
+* Add PySpread spreadsheet mime-types
+* Add Kotlin source mime-type
+* Add AVIF image mime-type
+* Split versions of the Audible audio mime types
+* Add *.spx glob for audio/x-speex+ogg
+* Add Apple System Profiler XML mime-type
+
+shared-mime-info 1.15 (2019-30-10)
+* Add Kindle 8 eBook format
+* Fix some HTML files being detected as XML
+
+shared-mime-info 1.14 (2019-20-09)
+* Add mime-type for QCOW images
+* Fix matching SVG files in some circumstances (again)
+
+shared-mime-info 1.13.1 (2019-11-09)
+* Fix matching SVG files in some circumstances
+
+shared-mime-info 1.13 (2019-11-09)
+* Add code of conduct document
+* Use itstool and gettext to generate translations
+* Add content-tree type for OSTree USB repositories
+* Add match for MPEG-4 v1 videos
+* Adjust a lot of user readable mime-type descriptions
+* Fix WOFF/WOFF2 mime-types
+* Prefer text/html to XHTML for *.html files
+* Better magic for text/html files
+* Fix SVG magic for files embedded in HTML
+* Add *.sgd as a glob for Mega Drive ROMs
+
+Specification:
+- Mention that sub-class-of can be aliases
+
+Tools:
+- Enable Large File Support in update-mime-database
+
+Test suite:
+- Make test suite failures fatal
+- Add test for duplicate mime-types
+- Fix WarpScript test
+- Generate the specification in the CI, to avoid it becoming
+  syntactically invalid
+
+shared-mime-info 1.12 (2019-17-01)
+* Fix build from tarball
+
+shared-mime-info 1.11 (2019-17-01)
+* Add mime-type for reStructuredText
+* Add mime-type for Groovy scripting language
+* Add mime-type for Gradle build tool
+* Add mime-type for Maven
+* Add mime-type for WarpScript source code
+* Add mime-type for zstd and tar.zst archives
+* Change the preferred suffix for image/jpeg from .jpeg to .jpg
+* Assign *.html to XHTML pages
+* Better detection for *.key files (Apple Keynote vs. GPG keys)
+* Give weight to one of the appimage patterns
+
+Tools:
+- Link to GitLab for contributions and bug reports
+- Loads of memory and file descriptor leak fixes
+
+Spec:
+- Clarify the availability of C character escape support
+
 shared-mime-info 1.10 (2018-28-06)
 * Add mime-type for MJPEG raw streams
 * Add MPEG-4 Ringtone mime-type

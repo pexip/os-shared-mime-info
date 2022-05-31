@@ -1,3 +1,3 @@
-update-mime-database.c
-tests/test.xml.in
-tests/test-gettext.c
+src/update-mime-database.c
+tests/mime-detection/test-gettext.c
+tests/mime-detection/test.xml.in
