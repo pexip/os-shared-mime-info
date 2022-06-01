@@ -4,13 +4,9 @@
 %:
 	dh $@ --no-parallel
 
-override_dh_auto_configure:
-	dh_auto_configure -- \
-		--disable-update-mimedb
-
 override_dh_install:
-	docbook2pdf shared-mime-info-spec.xml
-	docbook2html -o shared-mime-info-spec.html shared-mime-info-spec.xml
+	docbook2pdf -o data data/shared-mime-info-spec.xml
+	docbook2html -o data/shared-mime-info-spec.html data/shared-mime-info-spec.xml
 	dh_install
 
 override_dh_compress:
@@ -18,4 +14,4 @@ override_dh_compress:
 
 override_dh_clean:
 	dh_clean
-	rm -rf shared-mime-info-spec.html shared-mime-info-spec.pdf
+	rm -rf data/shared-mime-info-spec.html data/shared-mime-info-spec.pdf
