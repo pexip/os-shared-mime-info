@@ -1,3 +1,9 @@
+shared-mime-info (2.0-1pexip1) pexip; urgency=medium
+
+  * Initial bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 02 Jun 2022 14:42:56 +0100
+
 shared-mime-info (2.0-1) unstable; urgency=medium
 
   [ Olivier Tilloy ]
