@@ -1,3 +1,9 @@
+shared-mime-info (2.0-1pexip4) pexip; urgency=medium
+
+  * Watch for changes to /etc/mime.types
+
+ -- Huw Jones <huw@pexip.com>  Thu, 17 Nov 2022 11:26:08 +0000
+
 shared-mime-info (2.0-1pexip3) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion
