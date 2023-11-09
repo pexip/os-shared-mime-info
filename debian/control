@@ -19,7 +19,7 @@ Standards-Version: 4.1.1
 Vcs-Git: https://salsa.debian.org/freedesktop-team/shared-mime-info.git
 Vcs-Browser: https://salsa.debian.org/freedesktop-team/shared-mime-info
 Homepage: https://freedesktop.org/wiki/Software/shared-mime-info
-XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: shared-mime-info
 Architecture: any
