@@ -5,7 +5,7 @@ Maintainer: Pexip AS <packaging@pexip.com>
 XSBC-Pexip-Original-Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
 XSBC-Pexip-Original-Uploaders: Sebastian Dröge <slomo@debian.org>,
            Emilio Pozuelo Monfort <pochu@debian.org>,
-Build-Depends: debhelper-compat (= 12),
+Build-Depends: debhelper-compat (= 13),
                docbook-utils,
                docbook-xml,
                gettext,
@@ -15,7 +15,7 @@ Build-Depends: debhelper-compat (= 12),
                libxml2-utils,
                meson (>= 0.54.0),
                xmlto,
-Standards-Version: 4.1.1
+Standards-Version: 4.6.0
 Vcs-Git: https://salsa.debian.org/freedesktop-team/shared-mime-info.git
 Vcs-Browser: https://salsa.debian.org/freedesktop-team/shared-mime-info
 Homepage: https://freedesktop.org/wiki/Software/shared-mime-info

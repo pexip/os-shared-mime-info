@@ -1,3 +1,26 @@
+shared-mime-info (2.2-1) unstable; urgency=medium
+
+  *Team upload
+  * New upstream release (Closes: #983173)
+  * Drop patch: applied in new release
+  * Bump debhelper-compat to 13
+  * Bump Standards-Version to 4.6.0
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Fri, 29 Apr 2022 13:19:08 -0400
+
+shared-mime-info (2.1-2) unstable; urgency=medium
+
+  * debian/patches/git_meson_buildfix.patch:
+    - cherry pick a build fix for the new meson
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 14 Jan 2022 10:18:27 +0100
+
+shared-mime-info (2.1-1) experimental; urgency=medium
+
+  * New upstream version
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Tue, 08 Jun 2021 20:57:25 +0200
+
 shared-mime-info (2.0-1pexip4) pexip; urgency=medium
 
   * Watch for changes to /etc/mime.types
