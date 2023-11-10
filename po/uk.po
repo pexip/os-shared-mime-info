@@ -1,16 +1,16 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the shared-mime-info package.
 # 
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2011-2019
+# Yuri Chornoivan <yurchor@ukr.net>, 2011-2020
 msgid ""
 msgstr ""
 "Project-Id-Version: shared-mime-info\n"
-"Report-Msgid-Bugs-To: https://gitlab.freedesktop.org/xdg/shared-mime-info/issues\n"
-"POT-Creation-Date: 2019-09-11 12:53+0200\n"
-"PO-Revision-Date: 2019-08-21 05:41+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-31 11:24+0100\n"
+"PO-Revision-Date: 2010-11-30 12:22+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>, 2011-2020\n"
 "Language-Team: Ukrainian (http://www.transifex.com/freedesktop/shared-mime-info/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,667 +18,695 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
-#: freedesktop.org.xml.in:83
+#: data/freedesktop.org.xml.in:83
 msgid "Atari 2600 ROM"
 msgstr "Atari 2600 ROM"
 
-#: freedesktop.org.xml.in:88
+#: data/freedesktop.org.xml.in:88
 msgid "Atari 7800 ROM"
 msgstr "Atari 7800 ROM"
 
-#: freedesktop.org.xml.in:96
+#: data/freedesktop.org.xml.in:96
 msgid "Atari Lynx ROM"
 msgstr "Atari Lynx ROM"
 
-#: freedesktop.org.xml.in:104
+#: data/freedesktop.org.xml.in:104
 msgid "ATK inset"
 msgstr "вкладка ATK"
 
-#: freedesktop.org.xml.in:111
+#: data/freedesktop.org.xml.in:111
 msgid "electronic book document"
 msgstr "документ електронної книги"
 
-#: freedesktop.org.xml.in:125
+#: data/freedesktop.org.xml.in:125
+msgid "Kindle book document"
+msgstr "документ книги Kindle"
+
+#: data/freedesktop.org.xml.in:132
 msgid "Adobe Illustrator document"
 msgstr "документ Adobe Illustrator"
 
-#: freedesktop.org.xml.in:131
+#: data/freedesktop.org.xml.in:138
 msgid "Macintosh BinHex-encoded file"
 msgstr "файл закодований Macintosh BinHex"
 
-#: freedesktop.org.xml.in:138
+#: data/freedesktop.org.xml.in:145
 msgid "Mathematica Notebook file"
 msgstr "файл нотатника Mathematica"
 
-#: freedesktop.org.xml.in:153
+#: data/freedesktop.org.xml.in:160
 msgid "MathML document"
 msgstr "документ MathML"
 
-#: freedesktop.org.xml.in:162
+#: data/freedesktop.org.xml.in:169
 msgid "mailbox file"
 msgstr "файл поштової скриньки"
 
-#: freedesktop.org.xml.in:171 freedesktop.org.xml.in:180
+#: data/freedesktop.org.xml.in:178 data/freedesktop.org.xml.in:187
 msgid "Metalink file"
 msgstr "файл метапосилання"
 
-#: freedesktop.org.xml.in:189
+#: data/freedesktop.org.xml.in:196
 msgid "unknown"
 msgstr "невідомо"
 
-#: freedesktop.org.xml.in:192
+#: data/freedesktop.org.xml.in:199
 msgid "Partially downloaded file"
 msgstr "частково отриманий файл"
 
-#: freedesktop.org.xml.in:199
+#: data/freedesktop.org.xml.in:206
 msgid "ODA document"
 msgstr "документ ODA"
 
-#: freedesktop.org.xml.in:206
+#: data/freedesktop.org.xml.in:213
 msgid "WWF document"
 msgstr "документ WWF"
 
-#: freedesktop.org.xml.in:213
+#: data/freedesktop.org.xml.in:220
 msgid "PDF document"
 msgstr "документ PDF"
 
-#: freedesktop.org.xml.in:227
+#: data/freedesktop.org.xml.in:234
 msgid "XSPF playlist"
 msgstr "список програвання XSPF"
 
-#: freedesktop.org.xml.in:241
+#: data/freedesktop.org.xml.in:248
 msgid "Microsoft Windows theme pack"
 msgstr "пакунок з темою Microsoft Windows"
 
-#: freedesktop.org.xml.in:247
+#: data/freedesktop.org.xml.in:254
 msgid "AmazonMP3 download file"
 msgstr "файл завантаження AmazonMP3"
 
-#: freedesktop.org.xml.in:251
+#: data/freedesktop.org.xml.in:258
 msgid "GSM 06.10 audio"
 msgstr "звук GSM 06.10"
 
-#: freedesktop.org.xml.in:257
+#: data/freedesktop.org.xml.in:264
 msgid "iRiver playlist"
 msgstr "список відтворення iRiver"
 
-#: freedesktop.org.xml.in:264
+#: data/freedesktop.org.xml.in:271
 msgid "PGP/MIME-encrypted message header"
 msgstr "заголовок шифрованого PGP/MIME повідомлення"
 
-#: freedesktop.org.xml.in:276
+#: data/freedesktop.org.xml.in:283
 msgid "PGP keys"
 msgstr "ключі PGP"
 
-#: freedesktop.org.xml.in:297
+#: data/freedesktop.org.xml.in:304
 msgid "detached OpenPGP signature"
 msgstr "відокремлений OpenPGP підпис"
 
-#: freedesktop.org.xml.in:310
+#: data/freedesktop.org.xml.in:317
 msgid "PKCS#7 file"
 msgstr "файл PKCS#7"
 
-#: freedesktop.org.xml.in:318
+#: data/freedesktop.org.xml.in:325
 msgid "detached S/MIME signature"
 msgstr "відокремлений S/MIME підпис"
 
-#: freedesktop.org.xml.in:326
+#: data/freedesktop.org.xml.in:333
 msgid "PKCS#8 private key"
 msgstr "закритий ключ PKCS#8"
 
-#: freedesktop.org.xml.in:332
+#: data/freedesktop.org.xml.in:339
 msgid "PKCS#8 private key (encrypted)"
 msgstr "закритий ключ PKCS#8 (зашифрований)"
 
-#: freedesktop.org.xml.in:338
+#: data/freedesktop.org.xml.in:345
 msgid "PKCS#10 certification request"
 msgstr "комплект сертифікатів PKCS#10"
 
-#: freedesktop.org.xml.in:345
+#: data/freedesktop.org.xml.in:352
 msgid "X.509 certificate"
 msgstr "сертифікат X.509"
 
-#: freedesktop.org.xml.in:349
+#: data/freedesktop.org.xml.in:356
 msgid "certificate revocation list"
 msgstr "список відкликання сертифікатів"
 
-#: freedesktop.org.xml.in:353
+#: data/freedesktop.org.xml.in:360
 msgid "PkiPath certification path"
 msgstr "шлях сертифікації PkiPath"
 
-#: freedesktop.org.xml.in:357
+#: data/freedesktop.org.xml.in:364
 msgid "PostScript document"
 msgstr "документ PostScript"
 
-#: freedesktop.org.xml.in:367
+#: data/freedesktop.org.xml.in:374
 msgid "Plucker document"
 msgstr "документ Plucker"
 
-#: freedesktop.org.xml.in:374
+#: data/freedesktop.org.xml.in:381
 msgid "RAML document"
 msgstr "документ RAML"
 
-#: freedesktop.org.xml.in:384
+#: data/freedesktop.org.xml.in:391
 msgid "RELAX NG XML schema"
 msgstr "XML-схема RELAX NG"
 
-#: freedesktop.org.xml.in:393
+#: data/freedesktop.org.xml.in:400
 msgid "RTF document"
 msgstr "документ RTF"
 
-#: freedesktop.org.xml.in:405
+#: data/freedesktop.org.xml.in:412
 msgid "Sieve mail filter script"
 msgstr "скрипт поштового фільтру Sieve"
 
-#: freedesktop.org.xml.in:411
+#: data/freedesktop.org.xml.in:418
 msgid "SMIL document"
 msgstr "документ SMIL"
 
-#: freedesktop.org.xml.in:429
+#: data/freedesktop.org.xml.in:436
 msgid "WPL playlist"
 msgstr "список відтворення WPL"
 
-#: freedesktop.org.xml.in:439
+#: data/freedesktop.org.xml.in:446
 msgid "SQLite2 database"
 msgstr "База даних SQLite2"
 
-#: freedesktop.org.xml.in:446
+#: data/freedesktop.org.xml.in:453
 msgid "SQLite3 database"
 msgstr "база даних SQLite3"
 
-#: freedesktop.org.xml.in:454
+#: data/freedesktop.org.xml.in:461
+msgid "Apple System Profiler"
+msgstr "засіб профілювання системи Apple"
+
+#: data/freedesktop.org.xml.in:470
 msgid "GEDCOM family history"
 msgstr "історія родини GEDCOM"
 
-#: freedesktop.org.xml.in:466
+#: data/freedesktop.org.xml.in:482
 msgid "Flash video"
 msgstr "відеокліп Flash"
 
-#: freedesktop.org.xml.in:477
+#: data/freedesktop.org.xml.in:493
 msgid "JavaFX video"
 msgstr "відеокліп JavaFX"
 
 #. translators: a record is in this context a description of a board game
 #. that has been played, and that can be played back again:
 #. http://www.red-bean.com/sgf/
-#: freedesktop.org.xml.in:489
+#: data/freedesktop.org.xml.in:505
 msgid "SGF record"
 msgstr "запис SGF"
 
-#: freedesktop.org.xml.in:501
+#: data/freedesktop.org.xml.in:517
 msgid "XLIFF translation file"
 msgstr "файл перекладу XLIFF"
 
-#: freedesktop.org.xml.in:515
+#: data/freedesktop.org.xml.in:531
 msgid "YAML document"
 msgstr "документ YAML"
 
-#: freedesktop.org.xml.in:529
+#: data/freedesktop.org.xml.in:545
 msgid "Corel Draw drawing"
 msgstr "малюнок Corel Draw"
 
-#: freedesktop.org.xml.in:544
+#: data/freedesktop.org.xml.in:560
 msgid "HPGL file"
 msgstr "файл HPGL"
 
-#: freedesktop.org.xml.in:551
+#: data/freedesktop.org.xml.in:567
 msgid "PCL file"
 msgstr "файл PCL"
 
-#: freedesktop.org.xml.in:558
+#: data/freedesktop.org.xml.in:574
 msgid "Lotus 1-2-3 spreadsheet"
 msgstr "ел. таблиця Lotus 1-2-3"
 
-#: freedesktop.org.xml.in:575
+#: data/freedesktop.org.xml.in:591
 msgid "Lotus Word Pro document"
 msgstr "документ Lotus Word Pro"
 
-#: freedesktop.org.xml.in:583
+#: data/freedesktop.org.xml.in:599
 msgid "JET database"
 msgstr "База даних JET"
 
-#: freedesktop.org.xml.in:600
+#: data/freedesktop.org.xml.in:615
 msgid "Microsoft Cabinet archive"
 msgstr "архів Cabinet Microsoft"
 
-#: freedesktop.org.xml.in:609 freedesktop.org.xml.in:639
+#: data/freedesktop.org.xml.in:624 data/freedesktop.org.xml.in:654
 msgid "Excel spreadsheet"
 msgstr "ел. таблиця Excel"
 
-#: freedesktop.org.xml.in:627
+#: data/freedesktop.org.xml.in:642
 msgid "Excel add-in"
 msgstr "додаток Excel"
 
-#: freedesktop.org.xml.in:633
+#: data/freedesktop.org.xml.in:648
 msgid "Excel 2007 binary spreadsheet"
 msgstr "бінарна електронна таблиця Excel 2007"
 
-#: freedesktop.org.xml.in:645
+#: data/freedesktop.org.xml.in:660
 msgid "Excel spreadsheet template"
 msgstr "шаблон електронної таблиці Excel"
 
-#: freedesktop.org.xml.in:651 freedesktop.org.xml.in:667
-#: freedesktop.org.xml.in:679
+#: data/freedesktop.org.xml.in:666 data/freedesktop.org.xml.in:682
+#: data/freedesktop.org.xml.in:694
 msgid "PowerPoint presentation"
 msgstr "презентація PowerPoint"
 
-#: freedesktop.org.xml.in:662
+#: data/freedesktop.org.xml.in:677
 msgid "PowerPoint add-in"
 msgstr "додаток PowerPoint"
 
-#: freedesktop.org.xml.in:673
+#: data/freedesktop.org.xml.in:688
 msgid "PowerPoint slide"
 msgstr "слайд PowerPoint"
 
-#: freedesktop.org.xml.in:685
+#: data/freedesktop.org.xml.in:700
 msgid "PowerPoint presentation template"
 msgstr "шаблон презентації PowerPoint"
 
-#: freedesktop.org.xml.in:691 freedesktop.org.xml.in:709
+#: data/freedesktop.org.xml.in:706 data/freedesktop.org.xml.in:724
 msgid "Office Open XML Visio drawing"
 msgstr "малюнок Visio Office Open у XML"
 
-#: freedesktop.org.xml.in:697 freedesktop.org.xml.in:715
+#: data/freedesktop.org.xml.in:712 data/freedesktop.org.xml.in:730
 msgid "Office Open XML Visio template"
 msgstr "шаблон Visio Office Open у XML"
 
-#: freedesktop.org.xml.in:703 freedesktop.org.xml.in:721
+#: data/freedesktop.org.xml.in:718 data/freedesktop.org.xml.in:736
 msgid "Office Open XML Visio stencil"
 msgstr "трафарет Visio Office Open у XML"
 
-#: freedesktop.org.xml.in:727 freedesktop.org.xml.in:769
+#: data/freedesktop.org.xml.in:742 data/freedesktop.org.xml.in:790
 msgid "Word document"
 msgstr "документ Word"
 
-#: freedesktop.org.xml.in:733
+#: data/freedesktop.org.xml.in:748
 msgid "Word document template"
 msgstr "шаблон документа Word"
 
-#: freedesktop.org.xml.in:739
+#: data/freedesktop.org.xml.in:754
+msgid "OpenXPS document"
+msgstr "документ OpenXPS"
+
+#: data/freedesktop.org.xml.in:762
 msgid "XPS document"
 msgstr "документ XPS"
 
-#: freedesktop.org.xml.in:750
+#: data/freedesktop.org.xml.in:771
 msgid "Microsoft Works document"
 msgstr "документ Microsoft Works"
 
-#: freedesktop.org.xml.in:760
+#: data/freedesktop.org.xml.in:781
 msgid "Microsoft Visio document"
 msgstr "документ Microsoft Visio"
 
-#: freedesktop.org.xml.in:789
+#: data/freedesktop.org.xml.in:810
 msgid "Word template"
 msgstr "шаблон Word"
 
-#: freedesktop.org.xml.in:795
+#: data/freedesktop.org.xml.in:816
 msgid "GML document"
 msgstr "документ GML"
 
-#: freedesktop.org.xml.in:803
+#: data/freedesktop.org.xml.in:824
 msgid "GNUnet search file"
 msgstr "файл пошуку GNUnet"
 
-#: freedesktop.org.xml.in:810
+#: data/freedesktop.org.xml.in:831
 msgid "TNEF message"
 msgstr "повідомлення TNEF"
 
-#: freedesktop.org.xml.in:822
+#: data/freedesktop.org.xml.in:843
 msgid "StarCalc spreadsheet"
 msgstr "ел. таблиця StarCalc"
 
-#: freedesktop.org.xml.in:827
+#: data/freedesktop.org.xml.in:848
 msgid "StarChart chart"
 msgstr "діаграма StarChart"
 
-#: freedesktop.org.xml.in:832
+#: data/freedesktop.org.xml.in:853
 msgid "StarDraw drawing"
 msgstr "малюнок StarDraw"
 
-#: freedesktop.org.xml.in:837
+#: data/freedesktop.org.xml.in:858
 msgid "StarImpress presentation"
 msgstr "презентація StarImpress"
 
-#: freedesktop.org.xml.in:843
+#: data/freedesktop.org.xml.in:864
 msgid "StarMail email"
 msgstr "поштове повідомлення StarMail"
 
-#: freedesktop.org.xml.in:847
+#: data/freedesktop.org.xml.in:868
 msgid "StarMath formula"
 msgstr "формула StarMath"
 
-#: freedesktop.org.xml.in:852
+#: data/freedesktop.org.xml.in:873
 msgid "StarWriter document"
 msgstr "документ StarWriter"
 
-#: freedesktop.org.xml.in:863
+#: data/freedesktop.org.xml.in:884
 msgid "OpenOffice Calc spreadsheet"
 msgstr "ел. таблиця OpenOffice Calc"
 
-#: freedesktop.org.xml.in:876
+#: data/freedesktop.org.xml.in:897
 msgid "OpenOffice Calc template"
 msgstr "шаблон ел.таблиці OpenOffice Calc"
 
-#: freedesktop.org.xml.in:889
+#: data/freedesktop.org.xml.in:910
 msgid "OpenOffice Draw drawing"
 msgstr "малюнок OpenOffice Draw"
 
-#: freedesktop.org.xml.in:902
+#: data/freedesktop.org.xml.in:923
 msgid "OpenOffice Draw template"
 msgstr "шаблон малюнку OpenOffice Draw"
 
-#: freedesktop.org.xml.in:915
+#: data/freedesktop.org.xml.in:936
 msgid "OpenOffice Impress presentation"
 msgstr "презентація OpenOffice Impress"
 
-#: freedesktop.org.xml.in:928
+#: data/freedesktop.org.xml.in:949
 msgid "OpenOffice Impress template"
 msgstr "шаблон презентації OpenOffice Impress"
 
-#: freedesktop.org.xml.in:941
+#: data/freedesktop.org.xml.in:962
 msgid "OpenOffice Math formula"
 msgstr "формула OpenOffice Math"
 
-#: freedesktop.org.xml.in:954
+#: data/freedesktop.org.xml.in:975
 msgid "OpenOffice Writer document"
 msgstr "документ OpenOffice Writer"
 
-#: freedesktop.org.xml.in:967
+#: data/freedesktop.org.xml.in:988
 msgid "OpenOffice Writer global document"
 msgstr "загальний документ OpenOffice Writer"
 
-#: freedesktop.org.xml.in:980
+#: data/freedesktop.org.xml.in:1001
 msgid "OpenOffice Writer template"
 msgstr "шаблон документа OpenOffice Writer"
 
-#: freedesktop.org.xml.in:993
+#: data/freedesktop.org.xml.in:1014
 msgid "ODT document"
 msgstr "документ ODT"
 
-#: freedesktop.org.xml.in:1008
+#: data/freedesktop.org.xml.in:1029
 msgid "ODT document (Flat XML)"
 msgstr "документ ODT (Flat XML)"
 
-#: freedesktop.org.xml.in:1016
+#: data/freedesktop.org.xml.in:1037
 msgid "ODT template"
 msgstr "шаблон ODT"
 
-#: freedesktop.org.xml.in:1031
+#: data/freedesktop.org.xml.in:1052
 msgid "OTH template"
 msgstr "шаблон OTH"
 
-#: freedesktop.org.xml.in:1046
+#: data/freedesktop.org.xml.in:1067
 msgid "ODM document"
 msgstr "документ ODM"
 
-#: freedesktop.org.xml.in:1061
+#: data/freedesktop.org.xml.in:1082
 msgid "ODG drawing"
 msgstr "малюнок ODG"
 
-#: freedesktop.org.xml.in:1076
+#: data/freedesktop.org.xml.in:1097
 msgid "ODG drawing (Flat XML)"
 msgstr "малюнок ODG (простий XML)"
 
-#: freedesktop.org.xml.in:1084
+#: data/freedesktop.org.xml.in:1105
 msgid "ODG template"
 msgstr "шаблон ODG"
 
-#: freedesktop.org.xml.in:1099
+#: data/freedesktop.org.xml.in:1120
 msgid "ODP presentation"
 msgstr "презентація ODP"
 
-#: freedesktop.org.xml.in:1114
+#: data/freedesktop.org.xml.in:1135
 msgid "ODP presentation (Flat XML)"
 msgstr "презентація ODP (Flat XML)"
 
-#: freedesktop.org.xml.in:1122
+#: data/freedesktop.org.xml.in:1143
 msgid "ODP template"
 msgstr "шаблон ODP"
 
-#: freedesktop.org.xml.in:1137
+#: data/freedesktop.org.xml.in:1158
 msgid "ODS spreadsheet"
 msgstr "ел. таблиця ODS"
 
-#: freedesktop.org.xml.in:1152
+#: data/freedesktop.org.xml.in:1173
 msgid "ODS spreadsheet (Flat XML)"
 msgstr "ел. таблиця ODS (Flat XML)"
 
-#: freedesktop.org.xml.in:1160
+#: data/freedesktop.org.xml.in:1181
 msgid "ODS template"
 msgstr "шаблон ODS"
 
-#: freedesktop.org.xml.in:1175
+#: data/freedesktop.org.xml.in:1196
 msgid "ODC chart"
 msgstr "діаграма ODC"
 
-#: freedesktop.org.xml.in:1190
+#: data/freedesktop.org.xml.in:1211
 msgid "ODC template"
 msgstr "шаблон ODC"
 
-#: freedesktop.org.xml.in:1205
+#: data/freedesktop.org.xml.in:1226
 msgid "ODF formula"
 msgstr "формула ODF"
 
-#: freedesktop.org.xml.in:1220
+#: data/freedesktop.org.xml.in:1241
 msgid "ODF template"
 msgstr "шаблон ODF"
 
-#: freedesktop.org.xml.in:1235
+#: data/freedesktop.org.xml.in:1256
 msgid "ODB database"
 msgstr "база даних ODB"
 
-#: freedesktop.org.xml.in:1251
+#: data/freedesktop.org.xml.in:1272
 msgid "ODI image"
 msgstr "зображення ODI"
 
-#: freedesktop.org.xml.in:1266
+#: data/freedesktop.org.xml.in:1287
 msgid "OpenOffice.org extension"
 msgstr "розширення OpenOffice.org"
 
-#: freedesktop.org.xml.in:1272
+#: data/freedesktop.org.xml.in:1293
 msgid "Android package"
 msgstr "пакунок Android"
 
-#: freedesktop.org.xml.in:1277
+#: data/freedesktop.org.xml.in:1298
 msgid "SIS package"
 msgstr "пакунок SIS"
 
-#: freedesktop.org.xml.in:1287
+#: data/freedesktop.org.xml.in:1308
 msgid "SISX package"
 msgstr "пакунок SISX"
 
-#: freedesktop.org.xml.in:1297
+#: data/freedesktop.org.xml.in:1318
 msgid "network packet capture"
 msgstr "перехоплення мережевого пакета"
 
-#: freedesktop.org.xml.in:1309
+#: data/freedesktop.org.xml.in:1330
 msgid "WordPerfect document"
 msgstr "документ WordPerfect"
 
-#: freedesktop.org.xml.in:1325
+#: data/freedesktop.org.xml.in:1346
 msgid "YouTube media archive"
 msgstr "мультимедійний архів YouTube"
 
-#: freedesktop.org.xml.in:1331
+#: data/freedesktop.org.xml.in:1352
 msgid "SPSS portable data file"
 msgstr "портативний файл даних SPSS"
 
-#: freedesktop.org.xml.in:1340
+#: data/freedesktop.org.xml.in:1361
 msgid "SPSS data file"
 msgstr "файл даних SPSS"
 
-#: freedesktop.org.xml.in:1352
+#: data/freedesktop.org.xml.in:1373
 msgid "XBEL bookmarks"
 msgstr "закладки XBEL"
 
-#: freedesktop.org.xml.in:1363
+#: data/freedesktop.org.xml.in:1384
 msgid "7-zip archive"
 msgstr "архів 7-zip"
 
-#: freedesktop.org.xml.in:1371
+#: data/freedesktop.org.xml.in:1392
 msgid "AbiWord document"
 msgstr "документ AbiWord"
 
-#: freedesktop.org.xml.in:1385
+#: data/freedesktop.org.xml.in:1406
 msgid "CD image cuesheet"
 msgstr "таблиця CUE образу CD"
 
-#: freedesktop.org.xml.in:1391
+#: data/freedesktop.org.xml.in:1412
 msgid "Lotus AmiPro document"
 msgstr "документ Lotus AmiPro"
 
-#: freedesktop.org.xml.in:1396
+#: data/freedesktop.org.xml.in:1417
 msgid "AportisDoc document"
 msgstr "документ AportisDoc"
 
-#: freedesktop.org.xml.in:1407
+#: data/freedesktop.org.xml.in:1428
 msgid "Applix Spreadsheets spreadsheet"
 msgstr "ел. таблиця Applix Spreadsheets"
 
-#: freedesktop.org.xml.in:1418
+#: data/freedesktop.org.xml.in:1439
 msgid "Applix Words document"
 msgstr "документ Applix Words"
 
-#: freedesktop.org.xml.in:1428
+#: data/freedesktop.org.xml.in:1449
 msgid "ARC archive"
 msgstr "архів ARC"
 
-#: freedesktop.org.xml.in:1440
+#: data/freedesktop.org.xml.in:1461
 msgid "AR archive"
 msgstr "архів AR"
 
-#: freedesktop.org.xml.in:1450
+#: data/freedesktop.org.xml.in:1471
 msgid "ARJ archive"
 msgstr "архів ARJ"
 
-#: freedesktop.org.xml.in:1460
+#: data/freedesktop.org.xml.in:1481
 msgid "ASP page"
 msgstr "сторінка ASP"
 
-#: freedesktop.org.xml.in:1468
+#: data/freedesktop.org.xml.in:1489
 msgid "AWK script"
 msgstr "скрипт AWK"
 
-#: freedesktop.org.xml.in:1487
+#: data/freedesktop.org.xml.in:1508
 msgid "BCPIO document"
 msgstr "документ BCPIO"
 
-#: freedesktop.org.xml.in:1494
+#: data/freedesktop.org.xml.in:1515
 msgid "BitTorrent seed file"
 msgstr "файл поширення BitTorrent"
 
-#: freedesktop.org.xml.in:1501
+#: data/freedesktop.org.xml.in:1522
 msgid "Blender scene"
 msgstr "сцена Blender"
 
-#: freedesktop.org.xml.in:1511
+#: data/freedesktop.org.xml.in:1532
 msgid "TeX DVI document (bzip-compressed)"
 msgstr "документ TeX DVI (стиснений bzip)"
 
-#: freedesktop.org.xml.in:1517
+#: data/freedesktop.org.xml.in:1538
 msgid "Bzip archive"
 msgstr "архів bzip"
 
-#: freedesktop.org.xml.in:1527
+#: data/freedesktop.org.xml.in:1549
 msgid "Tar archive (bzip-compressed)"
 msgstr "архів tar (стиснений bzip)"
 
-#: freedesktop.org.xml.in:1537
+#: data/freedesktop.org.xml.in:1559
 msgid "PDF document (bzip-compressed)"
 msgstr "документ PDF (стиснений bzip)"
 
-#: freedesktop.org.xml.in:1543
+#: data/freedesktop.org.xml.in:1565
 msgid "PostScript document (bzip-compressed)"
 msgstr "документ PostScript (стиснене bzip)"
 
-#: freedesktop.org.xml.in:1549 freedesktop.org.xml.in:1556
-#: freedesktop.org.xml.in:1562 freedesktop.org.xml.in:1568
+#: data/freedesktop.org.xml.in:1571 data/freedesktop.org.xml.in:1578
+#: data/freedesktop.org.xml.in:1584 data/freedesktop.org.xml.in:1590
 msgid "comic book archive"
 msgstr "архів коміксів"
 
-#: freedesktop.org.xml.in:1575
+#: data/freedesktop.org.xml.in:1597
 msgid "Lrzip archive"
 msgstr "архів lrzip"
 
-#: freedesktop.org.xml.in:1583
+#: data/freedesktop.org.xml.in:1605
 msgid "Tar archive (lrzip-compressed)"
 msgstr "архів tar (стиснений lrzip)"
 
-#: freedesktop.org.xml.in:1590
+#: data/freedesktop.org.xml.in:1612
 msgid "Apple disk image"
 msgstr "образ диска Apple"
 
-#: freedesktop.org.xml.in:1594
+#: data/freedesktop.org.xml.in:1616
 msgid "Raw disk image"
 msgstr "простий образ диска"
 
-#: freedesktop.org.xml.in:1599
+#: data/freedesktop.org.xml.in:1621
 msgid "Floppy disk image"
 msgstr "образ дискети"
 
-#: freedesktop.org.xml.in:1606
+#: data/freedesktop.org.xml.in:1628
 msgid "Raw disk image (XZ-compressed)"
 msgstr "простий образ диска (стиснений XZ)"
 
-#: freedesktop.org.xml.in:1612
+#: data/freedesktop.org.xml.in:1634
 msgid "raw CD image"
 msgstr "образ raw CD"
 
-#: freedesktop.org.xml.in:1620 freedesktop.org.xml.in:7234
+#: data/freedesktop.org.xml.in:1642
+msgid "Compressed CD image"
+msgstr "стиснений образ CD"
+
+#: data/freedesktop.org.xml.in:1649 data/freedesktop.org.xml.in:7353
 msgid "AppImage application bundle"
 msgstr "пакунок із програмами AppImage"
 
-#: freedesktop.org.xml.in:1636
+#: data/freedesktop.org.xml.in:1665
 msgid "CD Table Of Contents"
 msgstr "зміст CD"
 
-#: freedesktop.org.xml.in:1651
+#: data/freedesktop.org.xml.in:1680
+msgid "GD-ROM image cuesheet"
+msgstr "таблиця CUE образу GD-ROM"
+
+#: data/freedesktop.org.xml.in:1690
+msgid "Padus DiscJuggler CD image"
+msgstr "образ CD Padus DiscJuggler"
+
+#: data/freedesktop.org.xml.in:1694
 msgid "PGN chess game notation"
 msgstr "запис гри у шахи PGN"
 
-#: freedesktop.org.xml.in:1663
+#: data/freedesktop.org.xml.in:1706
 msgid "CHM document"
 msgstr "документ CHM"
 
-#: freedesktop.org.xml.in:1671
+#: data/freedesktop.org.xml.in:1714
 msgid "Java byte code"
 msgstr "Байт-код Java"
 
-#: freedesktop.org.xml.in:1674
+#: data/freedesktop.org.xml.in:1717
 msgid "UNIX-compressed file"
 msgstr "стиснений файл UNIX"
 
-#: freedesktop.org.xml.in:1682
+#: data/freedesktop.org.xml.in:1725
 msgid "Tar archive (gzip-compressed)"
 msgstr "архів tar (стиснений gzip)"
 
-#: freedesktop.org.xml.in:1689
+#: data/freedesktop.org.xml.in:1732
 msgid "program crash data"
 msgstr "аварійні дані про програму"
 
-#: freedesktop.org.xml.in:1708
+#: data/freedesktop.org.xml.in:1751
 msgid "CPIO archive"
 msgstr "архів CPIO"
 
-#: freedesktop.org.xml.in:1719
+#: data/freedesktop.org.xml.in:1762
 msgid "CPIO archive (gzip-compressed)"
 msgstr "архів CPIO (стиснений gzip)"
 
-#: freedesktop.org.xml.in:1725
+#: data/freedesktop.org.xml.in:1768
 msgid "C shell script"
 msgstr "скрипт оболонки C"
 
-#: freedesktop.org.xml.in:1738
+#: data/freedesktop.org.xml.in:1781
 msgid "Xbase document"
 msgstr "документ Xbase"
 
-#: freedesktop.org.xml.in:1746
+#: data/freedesktop.org.xml.in:1789
 msgid "ECMAScript program"
 msgstr "програма мовою ECMAScript"
+
+#: data/freedesktop.org.xml.in:1797
+msgid "MAME compressed hard disk image"
+msgstr "стиснений образ жорсткого диска MAME"
 
 #. Translate this to Mega-CD if the console was known as such in your locale
 #. Should be Mega-CD in all but en_US, Mexico, Canada and Brazil:
 #. https://en.wikipedia.org/wiki/Sega_CD
-#: freedesktop.org.xml.in:1756
+#: data/freedesktop.org.xml.in:1807
 msgid "Sega CD disc image"
 msgstr "образ диска Sega CD"
 
@@ -686,207 +714,219 @@ msgstr "образ диска Sega CD"
 #. your locale
 #. Should be Sega Pico in all but Japan:
 #. https://en.wikipedia.org/wiki/Sega_Pico
-#: freedesktop.org.xml.in:1772
+#: data/freedesktop.org.xml.in:1823
 msgid "Sega Pico ROM"
 msgstr "ППП Sega Pico"
 
-#: freedesktop.org.xml.in:1779
+#: data/freedesktop.org.xml.in:1831
 msgid "Sega Saturn disc image"
 msgstr "образ диска Sega Saturn"
 
-#: freedesktop.org.xml.in:1788
+#: data/freedesktop.org.xml.in:1840
 msgid "Dreamcast disc image"
 msgstr "образ диска Dreamcast"
 
-#: freedesktop.org.xml.in:1793
+#: data/freedesktop.org.xml.in:1848
 msgid "Nintendo DS ROM"
 msgstr "ППП Nintendo"
 
-#: freedesktop.org.xml.in:1798
+#: data/freedesktop.org.xml.in:1853
+msgid "Nintendo 3DS ROM"
+msgstr "ППП Nintendo 3DS"
+
+#: data/freedesktop.org.xml.in:1862
+msgid "Nintendo 3DS Executable"
+msgstr "виконуваний файл Nintendo 3DS"
+
+#: data/freedesktop.org.xml.in:1870
 msgid "PC Engine ROM"
 msgstr "ROM для рушія на ПК"
 
-#: freedesktop.org.xml.in:1803
+#: data/freedesktop.org.xml.in:1875
 msgid "Wii disc image"
 msgstr "образ диска Wii"
 
-#: freedesktop.org.xml.in:1816
+#: data/freedesktop.org.xml.in:1888
 msgid "WiiWare bundle"
 msgstr "пакет WiiWare"
 
-#: freedesktop.org.xml.in:1826
+#: data/freedesktop.org.xml.in:1898
 msgid "GameCube disc image"
 msgstr "образ диска GameCube"
 
-#: freedesktop.org.xml.in:1835
+#: data/freedesktop.org.xml.in:1907
 msgid "Thomson Mémo7 cartridge"
 msgstr "картридж Thomson Mémo7"
 
-#: freedesktop.org.xml.in:1840
+#: data/freedesktop.org.xml.in:1912
 msgid "Thomson cassette"
 msgstr "касета Thomson"
 
-#: freedesktop.org.xml.in:1845
+#: data/freedesktop.org.xml.in:1917
 msgid "HFE floppy disk image"
 msgstr "образ дискети HFE"
 
-#: freedesktop.org.xml.in:1856
+#: data/freedesktop.org.xml.in:1928
 msgid "SAP Thomson floppy disk image"
 msgstr "образ дискети Thomson SAP"
 
-#: freedesktop.org.xml.in:1867
+#: data/freedesktop.org.xml.in:1939
 msgid "Debian package"
 msgstr "пакунок Debian"
 
-#: freedesktop.org.xml.in:1880
+#: data/freedesktop.org.xml.in:1952
 msgid "Qt Designer interface document"
 msgstr "документ інтерфейсу Qt Designer"
 
-#: freedesktop.org.xml.in:1890
+#: data/freedesktop.org.xml.in:1962
+msgid "Kaitai Struct definition file"
+msgstr "файл визначень Kaitai Struct"
+
+#: data/freedesktop.org.xml.in:1967
 msgid "Qt Markup Language file"
 msgstr "файл мови розмітки Qt"
 
-#: freedesktop.org.xml.in:1905
+#: data/freedesktop.org.xml.in:1982
 msgid "desktop configuration file"
 msgstr "файл конфігурації стільниці"
 
-#: freedesktop.org.xml.in:1920
+#: data/freedesktop.org.xml.in:1997
 msgid "FictionBook document"
 msgstr "документ FictionBook"
 
-#: freedesktop.org.xml.in:1930
+#: data/freedesktop.org.xml.in:2007
 msgid "Compressed FictionBook document"
 msgstr "стиснений документ FictionBook"
 
-#: freedesktop.org.xml.in:1941
+#: data/freedesktop.org.xml.in:2018
 msgid "Dia diagram"
 msgstr "діаграма Dia"
 
-#: freedesktop.org.xml.in:1951
+#: data/freedesktop.org.xml.in:2028
 msgid "Dia shape"
 msgstr "форма Dia"
 
-#: freedesktop.org.xml.in:1961
+#: data/freedesktop.org.xml.in:2038
 msgid "TeX DVI document"
 msgstr "документ TeX DVI"
 
-#: freedesktop.org.xml.in:1971
+#: data/freedesktop.org.xml.in:2048
 msgid "Enlightenment theme"
 msgstr "тема Enlightenment"
 
-#: freedesktop.org.xml.in:1975
+#: data/freedesktop.org.xml.in:2052
 msgid "Egon Animator animation"
 msgstr "анімація Egon Animator"
 
-#: freedesktop.org.xml.in:1980
+#: data/freedesktop.org.xml.in:2057
 msgid "executable"
 msgstr "виконуваний файл"
 
-#: freedesktop.org.xml.in:2001
+#: data/freedesktop.org.xml.in:2074
 msgid "FLTK Fluid file"
 msgstr "файл FLTK Fluid"
 
-#: freedesktop.org.xml.in:2012
+#: data/freedesktop.org.xml.in:2085
 msgid "WOFF font"
 msgstr "шрифт WOFF"
 
-#: freedesktop.org.xml.in:2023
+#: data/freedesktop.org.xml.in:2096
 msgid "WOFF2 font"
 msgstr "шрифт WOFF2"
 
-#: freedesktop.org.xml.in:2033
+#: data/freedesktop.org.xml.in:2106
 msgid "PostScript type-1 font"
 msgstr "шрифт type-1 PostScript"
 
-#: freedesktop.org.xml.in:2049
+#: data/freedesktop.org.xml.in:2122
 msgid "Adobe font metrics"
 msgstr "метрики шрифту Adobe"
 
-#: freedesktop.org.xml.in:2054
+#: data/freedesktop.org.xml.in:2127
 msgid "BDF font"
 msgstr "шрифт BDF"
 
-#: freedesktop.org.xml.in:2062
+#: data/freedesktop.org.xml.in:2135
 msgid "DOS font"
 msgstr "шрифт DOS"
 
-#: freedesktop.org.xml.in:2071
+#: data/freedesktop.org.xml.in:2144
 msgid "Adobe FrameMaker font"
 msgstr "шрифт Adobe FrameMaker"
 
-#: freedesktop.org.xml.in:2078
+#: data/freedesktop.org.xml.in:2151
 msgid "LIBGRX font"
 msgstr "шрифт LIBGRX"
 
-#: freedesktop.org.xml.in:2085
+#: data/freedesktop.org.xml.in:2158
 msgid "Linux PSF console font"
 msgstr "консольний шрифт Linux PSF"
 
-#: freedesktop.org.xml.in:2093
+#: data/freedesktop.org.xml.in:2166
 msgid "Linux PSF console font (gzip-compressed)"
 msgstr "консольний шрифт Linux PSF (стиснений gzip)"
 
-#: freedesktop.org.xml.in:2099
+#: data/freedesktop.org.xml.in:2172
 msgid "PCF font"
 msgstr "шрифт PCF"
 
-#: freedesktop.org.xml.in:2109
+#: data/freedesktop.org.xml.in:2182
 msgid "OpenType font"
 msgstr "шрифт OpenType"
 
-#: freedesktop.org.xml.in:2119
+#: data/freedesktop.org.xml.in:2192
 msgid "Speedo font"
 msgstr "шрифт Speedo"
 
-#: freedesktop.org.xml.in:2127
+#: data/freedesktop.org.xml.in:2200
 msgid "SunOS News font"
 msgstr "шрифт SunOS News"
 
-#: freedesktop.org.xml.in:2136
+#: data/freedesktop.org.xml.in:2209
 msgid "TeX font"
 msgstr "шрифт TeX"
 
-#: freedesktop.org.xml.in:2145
+#: data/freedesktop.org.xml.in:2218
 msgid "TeX font metrics"
 msgstr "метрики шрифту TeX"
 
-#: freedesktop.org.xml.in:2153
+#: data/freedesktop.org.xml.in:2226
 msgid "TrueType font"
 msgstr "шрифт TrueType"
 
-#: freedesktop.org.xml.in:2164
+#: data/freedesktop.org.xml.in:2237
 msgid "Font collection"
 msgstr "збірка шрифтів"
 
-#: freedesktop.org.xml.in:2169
+#: data/freedesktop.org.xml.in:2242
 msgid "TrueType XML font"
 msgstr "шрифт TrueType XML"
 
-#: freedesktop.org.xml.in:2178
+#: data/freedesktop.org.xml.in:2251
 msgid "V font"
 msgstr "V-шрифт"
 
-#: freedesktop.org.xml.in:2185
+#: data/freedesktop.org.xml.in:2258
 msgid "Adobe FrameMaker document"
 msgstr "документ Adobe FrameMaker"
 
-#: freedesktop.org.xml.in:2200
+#: data/freedesktop.org.xml.in:2273
 msgid "Game Boy ROM"
 msgstr "ППП Game Boy"
 
-#: freedesktop.org.xml.in:2211
+#: data/freedesktop.org.xml.in:2284
 msgid "Game Boy Color ROM"
 msgstr "ППП Game Boy Color"
 
-#: freedesktop.org.xml.in:2222
+#: data/freedesktop.org.xml.in:2295
 msgid "Game Boy Advance ROM"
 msgstr "розширений ППП Game Boy"
 
-#: freedesktop.org.xml.in:2228
+#: data/freedesktop.org.xml.in:2301
 msgid "Virtual Boy ROM"
 msgstr "ROM Virtual Boy"
 
-#: freedesktop.org.xml.in:2233
+#: data/freedesktop.org.xml.in:2306
 msgid "GDBM database"
 msgstr "база даних GDBM"
 
@@ -894,7 +934,7 @@ msgstr "база даних GDBM"
 #. locale
 #. Should be Mega Drive in all but en_US, Mexico and Canada:
 #. https://en.wikipedia.org/wiki/Sega_Genesis#History
-#: freedesktop.org.xml.in:2245
+#: data/freedesktop.org.xml.in:2318
 msgid "Genesis ROM"
 msgstr "ППП Genesis"
 
@@ -902,2266 +942,2318 @@ msgstr "ППП Genesis"
 #. known as such in your locale
 #. Should be Super 32X in Japan, Mega Drive 32X in PAL region and Mega 32X in
 #. Brazil: https://en.wikipedia.org/wiki/32X
-#: freedesktop.org.xml.in:2260
+#: data/freedesktop.org.xml.in:2334
 msgid "Genesis 32X ROM"
 msgstr "ППП Genesis 32X"
 
-#: freedesktop.org.xml.in:2269
+#: data/freedesktop.org.xml.in:2343
 msgid "translated messages (machine-readable)"
 msgstr "перекладені повідомлення (у машинній формі)"
 
-#: freedesktop.org.xml.in:2278
+#: data/freedesktop.org.xml.in:2352
 msgid "GTK+ Builder interface document"
 msgstr "документ інтерфейсу GTK+ Builder"
 
-#: freedesktop.org.xml.in:2287
+#: data/freedesktop.org.xml.in:2361
 msgid "Glade project"
 msgstr "проєкт Glade"
 
-#: freedesktop.org.xml.in:2296
+#: data/freedesktop.org.xml.in:2370
 msgid "GnuCash financial data"
 msgstr "фінансові дані GnuCash"
 
-#: freedesktop.org.xml.in:2303
+#: data/freedesktop.org.xml.in:2377
 msgid "Gnumeric spreadsheet"
 msgstr "ел. таблиця Gnumeric"
 
-#: freedesktop.org.xml.in:2312
+#: data/freedesktop.org.xml.in:2386
 msgid "Gnuplot document"
 msgstr "документ Gnuplot"
 
-#: freedesktop.org.xml.in:2320
+#: data/freedesktop.org.xml.in:2394
 msgid "Graphite scientific graph"
 msgstr "наукова графіка Graphite"
 
-#: freedesktop.org.xml.in:2325
+#: data/freedesktop.org.xml.in:2399
 msgid "GTKtalog catalog"
 msgstr "каталог GTKtalog"
 
-#: freedesktop.org.xml.in:2332
+#: data/freedesktop.org.xml.in:2406
 msgid "TeX DVI document (gzip-compressed)"
 msgstr "документ TeX DVI (стиснений gzip)"
 
-#: freedesktop.org.xml.in:2338
+#: data/freedesktop.org.xml.in:2412
 msgid "Gzip archive"
 msgstr "архів gzip"
 
-#: freedesktop.org.xml.in:2347
+#: data/freedesktop.org.xml.in:2421
 msgid "PDF document (gzip-compressed)"
 msgstr "документ PDF (стиснений gzip)"
 
-#: freedesktop.org.xml.in:2353
+#: data/freedesktop.org.xml.in:2427
 msgid "PostScript document (gzip-compressed)"
 msgstr "документ PostScript (стиснене gzip)"
 
-#: freedesktop.org.xml.in:2359
+#: data/freedesktop.org.xml.in:2433
 msgid "HDF document"
 msgstr "документ HDF"
 
-#: freedesktop.org.xml.in:2374
+#: data/freedesktop.org.xml.in:2448
 msgid "IFF file"
 msgstr "файл IFF"
 
-#: freedesktop.org.xml.in:2382
+#: data/freedesktop.org.xml.in:2456
 msgid "iPod firmware"
 msgstr "мікропрограма iPod"
 
-#: freedesktop.org.xml.in:2388
+#: data/freedesktop.org.xml.in:2462
 msgid "Java archive"
 msgstr "архів Java"
 
-#: freedesktop.org.xml.in:2396
+#: data/freedesktop.org.xml.in:2470
 msgid "Java class"
 msgstr "клас Java"
 
-#: freedesktop.org.xml.in:2408
+#: data/freedesktop.org.xml.in:2482
 msgid "Groovy source code"
 msgstr "вихідний код мовою Groovy"
 
-#: freedesktop.org.xml.in:2417
+#: data/freedesktop.org.xml.in:2491
 msgid "Gradle scripts"
 msgstr "скрипти Gradle"
 
-#: freedesktop.org.xml.in:2422
+#: data/freedesktop.org.xml.in:2496
 msgid "JNLP file"
 msgstr "файл JNLP"
 
-#: freedesktop.org.xml.in:2433
+#: data/freedesktop.org.xml.in:2507
 msgid "Java keystore"
 msgstr "сховище ключів Java"
 
-#: freedesktop.org.xml.in:2442
+#: data/freedesktop.org.xml.in:2516
 msgid "Java JCE keystore"
 msgstr "сховище ключів JCE Java"
 
-#: freedesktop.org.xml.in:2451
+#: data/freedesktop.org.xml.in:2525
 msgid "Pack200 Java archive"
 msgstr "архів Java Pack200"
 
-#: freedesktop.org.xml.in:2459
+#: data/freedesktop.org.xml.in:2533
 msgid "JavaScript program"
 msgstr "програма мовою JavaScript"
 
-#: freedesktop.org.xml.in:2481
+#: data/freedesktop.org.xml.in:2555
 msgid "JSON document"
 msgstr "документ JSON"
 
-#: freedesktop.org.xml.in:2489
+#: data/freedesktop.org.xml.in:2563
 msgid "JRD document"
 msgstr "документ JRD"
 
-#: freedesktop.org.xml.in:2497
+#: data/freedesktop.org.xml.in:2571
 msgid "JSON patch"
 msgstr "латка JSON"
 
-#: freedesktop.org.xml.in:2505
+#: data/freedesktop.org.xml.in:2579
 msgid "JSON-LD document"
 msgstr "документ JSON-LD"
 
-#: freedesktop.org.xml.in:2513
+#: data/freedesktop.org.xml.in:2587
 msgid "Jupyter notebook document"
 msgstr "документ нотатника Jupyter"
 
-#: freedesktop.org.xml.in:2524
+#: data/freedesktop.org.xml.in:2598
 msgid "CoffeeScript document"
 msgstr "документ CoffeeScript"
 
-#: freedesktop.org.xml.in:2530
+#: data/freedesktop.org.xml.in:2604
 msgid "JBuilder project"
 msgstr "проєкт JBuilder"
 
-#: freedesktop.org.xml.in:2536
+#: data/freedesktop.org.xml.in:2610
 msgid "Karbon14 drawing"
 msgstr "малюнок Karbon14"
 
-#: freedesktop.org.xml.in:2553
+#: data/freedesktop.org.xml.in:2627
 msgid "KChart chart"
 msgstr "діаграма KChart"
 
-#: freedesktop.org.xml.in:2570
+#: data/freedesktop.org.xml.in:2644
 msgid "Kexi settings"
 msgstr "параметри Kexi"
 
-#: freedesktop.org.xml.in:2574
+#: data/freedesktop.org.xml.in:2648
 msgid "Kexi shortcut"
 msgstr "скорочення Kexi"
 
-#: freedesktop.org.xml.in:2578 freedesktop.org.xml.in:2583
+#: data/freedesktop.org.xml.in:2652 data/freedesktop.org.xml.in:2657
 msgid "Kexi database file"
 msgstr "файл бази даних Kexi"
 
-#: freedesktop.org.xml.in:2590
+#: data/freedesktop.org.xml.in:2664
 msgid "KFormula formula"
 msgstr "формула KFormula"
 
-#: freedesktop.org.xml.in:2607
+#: data/freedesktop.org.xml.in:2681
 msgid "KIllustrator drawing"
 msgstr "малюнок KIllustrator"
 
-#: freedesktop.org.xml.in:2619
+#: data/freedesktop.org.xml.in:2693
 msgid "Kivio flowchart"
 msgstr "блок-схема Kivio"
 
-#: freedesktop.org.xml.in:2636
+#: data/freedesktop.org.xml.in:2710
 msgid "Kontour drawing"
 msgstr "малюнок Kontour"
 
-#: freedesktop.org.xml.in:2653
+#: data/freedesktop.org.xml.in:2727
 msgid "KPovModeler scene"
 msgstr "сцена KPovModeler"
 
-#: freedesktop.org.xml.in:2658
+#: data/freedesktop.org.xml.in:2732
 msgid "KPresenter presentation"
 msgstr "презентація KPresenter"
 
-#: freedesktop.org.xml.in:2676
+#: data/freedesktop.org.xml.in:2750
 msgid "Krita document"
 msgstr "документ Krita"
 
-#: freedesktop.org.xml.in:2693
+#: data/freedesktop.org.xml.in:2767
 msgid "KSpread spreadsheet"
 msgstr "ел. таблиця KSpread"
 
-#: freedesktop.org.xml.in:2710
+#: data/freedesktop.org.xml.in:2784
 msgid "KSpread spreadsheet (encrypted)"
 msgstr "ел. таблиця KSpread (зашифрована)"
 
-#: freedesktop.org.xml.in:2717
+#: data/freedesktop.org.xml.in:2791
 msgid "KSysV init package"
 msgstr "пакунок KSysV init"
 
-#: freedesktop.org.xml.in:2726
+#: data/freedesktop.org.xml.in:2800
 msgid "Kugar document"
 msgstr "документ Kugar"
 
-#: freedesktop.org.xml.in:2731
+#: data/freedesktop.org.xml.in:2805
 msgid "KWord document"
 msgstr "документ KWord"
 
-#: freedesktop.org.xml.in:2749
+#: data/freedesktop.org.xml.in:2823
 msgid "KWord document (encrypted)"
 msgstr "документ KWord (зашифрований)"
 
-#: freedesktop.org.xml.in:2756
+#: data/freedesktop.org.xml.in:2830
 msgid "LHA archive"
 msgstr "архів LHA"
 
-#: freedesktop.org.xml.in:2777
+#: data/freedesktop.org.xml.in:2851
 msgid "LHZ archive"
 msgstr "архів LHZ"
 
-#: freedesktop.org.xml.in:2782
+#: data/freedesktop.org.xml.in:2856
 msgid "message catalog"
 msgstr "каталог повідомлень"
 
-#: freedesktop.org.xml.in:2792
+#: data/freedesktop.org.xml.in:2866
 msgid "LyX document"
 msgstr "документ LyX"
 
-#: freedesktop.org.xml.in:2802
+#: data/freedesktop.org.xml.in:2876
 msgid "LZ4 archive"
 msgstr "архів LZ4"
 
-#: freedesktop.org.xml.in:2811
+#: data/freedesktop.org.xml.in:2885
 msgid "Tar archive (LZ4-compressed)"
 msgstr "архів tar (стиснений LZ4)"
 
-#: freedesktop.org.xml.in:2817
+#: data/freedesktop.org.xml.in:2891
 msgid "Lzip archive"
 msgstr "архів lzip"
 
-#: freedesktop.org.xml.in:2825
+#: data/freedesktop.org.xml.in:2899
 msgid "Tar archive (lzip-compressed)"
 msgstr "архів tar (стиснений lzip)"
 
-#: freedesktop.org.xml.in:2831
+#: data/freedesktop.org.xml.in:2905
 msgid "PDF document (lzip-compressed)"
 msgstr "документ PDF (стиснений lzip)"
 
-#: freedesktop.org.xml.in:2837
+#: data/freedesktop.org.xml.in:2911
 msgid "LZMA archive"
 msgstr "архів LZMA"
 
-#: freedesktop.org.xml.in:2844
+#: data/freedesktop.org.xml.in:2918
 msgid "Tar archive (LZMA-compressed)"
 msgstr "архів tar (стиснений LZMA)"
 
-#: freedesktop.org.xml.in:2851
+#: data/freedesktop.org.xml.in:2925
 msgid "LZO archive"
 msgstr "архів LZO"
 
-#: freedesktop.org.xml.in:2861
+#: data/freedesktop.org.xml.in:2935
 msgid "Qpress archive"
 msgstr "архів Qpress"
 
-#: freedesktop.org.xml.in:2869
+#: data/freedesktop.org.xml.in:2943
 msgid "XAR archive"
 msgstr "архів XAR"
 
-#: freedesktop.org.xml.in:2881
+#: data/freedesktop.org.xml.in:2955
 msgid "Zlib archive"
 msgstr "архів zlib"
 
-#: freedesktop.org.xml.in:2886
+#: data/freedesktop.org.xml.in:2960
 msgid "MagicPoint presentation"
 msgstr "презентація MagicPoint"
 
-#: freedesktop.org.xml.in:2892
+#: data/freedesktop.org.xml.in:2966
 msgid "Macintosh MacBinary file"
 msgstr "файл Macintosh MacBinary"
 
-#: freedesktop.org.xml.in:2899
+#: data/freedesktop.org.xml.in:2973
 msgid "Matroska stream"
 msgstr "потік даних Matroska"
 
-#: freedesktop.org.xml.in:2913
+#: data/freedesktop.org.xml.in:2987
 msgid "Matroska video"
 msgstr "відеокліп Matroska"
 
-#: freedesktop.org.xml.in:2918
+#: data/freedesktop.org.xml.in:2992
 msgid "Matroska 3D video"
 msgstr "відеокліп Matroska 3D"
 
-#: freedesktop.org.xml.in:2923
+#: data/freedesktop.org.xml.in:2997
 msgid "Matroska audio"
 msgstr "звук Matroska"
 
-#: freedesktop.org.xml.in:2928
+#: data/freedesktop.org.xml.in:3002
 msgid "WebM video"
 msgstr "відео WebM"
 
-#: freedesktop.org.xml.in:2942
+#: data/freedesktop.org.xml.in:3016
 msgid "WebM audio"
 msgstr "звук WebM"
 
-#: freedesktop.org.xml.in:2946
+#: data/freedesktop.org.xml.in:3020
 msgid "MHTML web archive"
 msgstr "вебархів MHTML"
 
-#: freedesktop.org.xml.in:2954
+#: data/freedesktop.org.xml.in:3028
 msgid "MXF video"
 msgstr "відеокліп MXF"
 
-#: freedesktop.org.xml.in:2964
+#: data/freedesktop.org.xml.in:3038
 msgid "OCL file"
 msgstr "файл OCL"
 
-#: freedesktop.org.xml.in:2971
+#: data/freedesktop.org.xml.in:3045
 msgid "COBOL source code"
 msgstr "вихідний код мовою COBOL"
 
-#: freedesktop.org.xml.in:2979
+#: data/freedesktop.org.xml.in:3053
 msgid "Mobipocket e-book"
 msgstr "електронна книга Mobipocket"
 
-#: freedesktop.org.xml.in:2993
+#: data/freedesktop.org.xml.in:3067
 msgid "Adobe FrameMaker MIF document"
 msgstr "документ Adobe FrameMaker MIF"
 
-#: freedesktop.org.xml.in:2997
+#: data/freedesktop.org.xml.in:3071
 msgid "Mozilla bookmarks"
 msgstr "закладки Mozilla"
 
-#: freedesktop.org.xml.in:3006
+#: data/freedesktop.org.xml.in:3080
 msgid "DOS/Windows executable"
 msgstr "виконуваний файл DOS/Windows"
 
-#: freedesktop.org.xml.in:3014
+#: data/freedesktop.org.xml.in:3088
 msgid "Internet shortcut"
 msgstr "інтернет-посилання"
 
-#: freedesktop.org.xml.in:3024
+#: data/freedesktop.org.xml.in:3098
 msgid "WRI document"
 msgstr "документ WRI"
 
-#: freedesktop.org.xml.in:3029
+#: data/freedesktop.org.xml.in:3103
 msgid "MSX ROM"
 msgstr "ППП MSX"
 
-#: freedesktop.org.xml.in:3034
+#: data/freedesktop.org.xml.in:3108
 msgid "M4 macro"
 msgstr "макрос M4"
 
-#: freedesktop.org.xml.in:3040
+#: data/freedesktop.org.xml.in:3114
 msgid "Nintendo64 ROM"
 msgstr "ППП Nintendo64"
 
-#: freedesktop.org.xml.in:3055
+#: data/freedesktop.org.xml.in:3129
 msgid "Nautilus link"
 msgstr "посилання Nautilus"
 
-#: freedesktop.org.xml.in:3063
+#: data/freedesktop.org.xml.in:3137
 msgid "Neo-Geo Pocket ROM"
 msgstr "ППП Neo-Geo Pocket"
 
-#: freedesktop.org.xml.in:3074
+#: data/freedesktop.org.xml.in:3148
 msgid "Neo-Geo Pocket Color ROM"
 msgstr "ППП Neo-Geo Pocket Color"
 
 #. Translate this to Famicom if the console was known as such in your locale
-#: freedesktop.org.xml.in:3086
+#: data/freedesktop.org.xml.in:3160
 msgid "NES ROM"
 msgstr "ППП NES"
 
-#: freedesktop.org.xml.in:3094
+#: data/freedesktop.org.xml.in:3168
 msgid "Unidata NetCDF document"
 msgstr "документ Unidata NetCDF"
 
-#: freedesktop.org.xml.in:3102
+#: data/freedesktop.org.xml.in:3176
 msgid "NewzBin usenet index"
 msgstr "покажчик usenet NewzBin"
 
-#: freedesktop.org.xml.in:3110
+#: data/freedesktop.org.xml.in:3184
 msgid "object code"
 msgstr "об'єктний код"
 
-#: freedesktop.org.xml.in:3127
+#: data/freedesktop.org.xml.in:3201
 msgid "Annodex exchange format"
 msgstr "формат обміну даними Annodex"
 
-#: freedesktop.org.xml.in:3140
+#: data/freedesktop.org.xml.in:3214
 msgid "Annodex video"
 msgstr "відео Annodex"
 
-#: freedesktop.org.xml.in:3153
+#: data/freedesktop.org.xml.in:3227
 msgid "Annodex audio"
 msgstr "звук Annodex"
 
-#: freedesktop.org.xml.in:3166
+#: data/freedesktop.org.xml.in:3240
 msgid "Ogg multimedia file"
 msgstr "мультимедійний файл Ogg"
 
-#: freedesktop.org.xml.in:3175
+#: data/freedesktop.org.xml.in:3249
 msgid "Ogg audio"
 msgstr "звук ogg"
 
-#: freedesktop.org.xml.in:3186
+#: data/freedesktop.org.xml.in:3260
 msgid "Ogg video"
 msgstr "відео ogg"
 
-#: freedesktop.org.xml.in:3196
+#: data/freedesktop.org.xml.in:3270
 msgid "Ogg Vorbis audio"
 msgstr "звук ogg Vorbis"
 
-#: freedesktop.org.xml.in:3209
+#: data/freedesktop.org.xml.in:3283
 msgid "Ogg FLAC audio"
 msgstr "звук ogg FLAC"
 
-#: freedesktop.org.xml.in:3224
+#: data/freedesktop.org.xml.in:3298
 msgid "Opus audio"
 msgstr "звук Opus"
 
-#: freedesktop.org.xml.in:3234
+#: data/freedesktop.org.xml.in:3308
 msgid "Ogg Speex audio"
 msgstr "звук ogg Speex"
 
-#: freedesktop.org.xml.in:3245
+#: data/freedesktop.org.xml.in:3320
 msgid "Speex audio"
 msgstr "звук Speex"
 
-#: freedesktop.org.xml.in:3252
+#: data/freedesktop.org.xml.in:3327
 msgid "Ogg Theora video"
 msgstr "відеокліп ogg Theora"
 
-#: freedesktop.org.xml.in:3263
+#: data/freedesktop.org.xml.in:3338
 msgid "OGM video"
 msgstr "відеокліп OGM"
 
-#: freedesktop.org.xml.in:3276
+#: data/freedesktop.org.xml.in:3351
 msgid "OLE2 compound document storage"
 msgstr "сховище складних документів OLE2"
 
-#: freedesktop.org.xml.in:3284
+#: data/freedesktop.org.xml.in:3359
 msgid "Microsoft Publisher document"
 msgstr "документ Microsoft Publisher"
 
-#: freedesktop.org.xml.in:3289
+#: data/freedesktop.org.xml.in:3364
 msgid "Windows Installer package"
 msgstr "пакунок Windows Installer"
 
-#: freedesktop.org.xml.in:3294
+#: data/freedesktop.org.xml.in:3369
 msgid "GNU Oleo spreadsheet"
 msgstr "ел. таблиця GNU Oleo"
 
-#: freedesktop.org.xml.in:3302
+#: data/freedesktop.org.xml.in:3377
 msgid "PAK archive"
 msgstr "архів PAK"
 
-#: freedesktop.org.xml.in:3310
+#: data/freedesktop.org.xml.in:3385
 msgid "Palm OS database"
 msgstr "база даних Palm OS"
 
-#: freedesktop.org.xml.in:3318
+#: data/freedesktop.org.xml.in:3393
 msgid "Parchive archive"
 msgstr "архів Parchive"
 
-#: freedesktop.org.xml.in:3329
+#: data/freedesktop.org.xml.in:3404
 msgid "PEF executable"
 msgstr "виконуваний файл PEF"
 
-#: freedesktop.org.xml.in:3336
+#: data/freedesktop.org.xml.in:3411
 msgid "Perl script"
 msgstr "скрипт на Perl"
 
-#: freedesktop.org.xml.in:3365
+#: data/freedesktop.org.xml.in:3440
 msgid "PHP script"
 msgstr "скрипт PHP"
 
-#: freedesktop.org.xml.in:3378
+#: data/freedesktop.org.xml.in:3453
 msgid "PKCS#7 certificate bundle"
 msgstr "комплект сертифікатів PKCS#7"
 
-#: freedesktop.org.xml.in:3385
+#: data/freedesktop.org.xml.in:3460
 msgid "PKCS#12 certificate bundle"
 msgstr "комплект сертифікатів PKCS#12"
 
-#: freedesktop.org.xml.in:3393
+#: data/freedesktop.org.xml.in:3468
 msgid "PlanPerfect spreadsheet"
 msgstr "ел. таблиця PlanPerfect"
 
-#: freedesktop.org.xml.in:3398
+#: data/freedesktop.org.xml.in:3473
 msgid "Pocket Word document"
 msgstr "документ Pocket Word"
 
-#: freedesktop.org.xml.in:3406
+#: data/freedesktop.org.xml.in:3481
 msgid "profiler results"
 msgstr "результати профілювання"
 
-#: freedesktop.org.xml.in:3412
+#: data/freedesktop.org.xml.in:3487
 msgid "Pathetic Writer document"
 msgstr "документ Pathetic Writer"
 
-#: freedesktop.org.xml.in:3417
+#: data/freedesktop.org.xml.in:3492
 msgid "Python bytecode"
 msgstr "байт-код Python"
 
-#: freedesktop.org.xml.in:3425
+#: data/freedesktop.org.xml.in:3500
 msgid "QtiPlot document"
 msgstr "документ QtiPlot"
 
-#: freedesktop.org.xml.in:3435
+#: data/freedesktop.org.xml.in:3510
 msgid "Quattro Pro spreadsheet"
 msgstr "ел. таблиця Quattro Pro"
 
-#: freedesktop.org.xml.in:3442
+#: data/freedesktop.org.xml.in:3517
 msgid "QuickTime playlist"
 msgstr "список відтворення QuickTime"
 
-#: freedesktop.org.xml.in:3457
+#: data/freedesktop.org.xml.in:3532
 msgid "Quicken document"
 msgstr "документ Quicken"
 
-#: freedesktop.org.xml.in:3462
+#: data/freedesktop.org.xml.in:3537
 msgid "RAR archive"
 msgstr "архів RAR"
 
-#: freedesktop.org.xml.in:3474
+#: data/freedesktop.org.xml.in:3549
 msgid "DAR archive"
 msgstr "архів DAR"
 
-#: freedesktop.org.xml.in:3482
+#: data/freedesktop.org.xml.in:3557
 msgid "Alzip archive"
 msgstr "архів Alzip"
 
-#: freedesktop.org.xml.in:3490
+#: data/freedesktop.org.xml.in:3565
 msgid "rejected patch"
 msgstr "відхилена латка"
 
-#: freedesktop.org.xml.in:3497
+#: data/freedesktop.org.xml.in:3572
 msgid "RPM package"
 msgstr "пакунок RPM"
 
-#: freedesktop.org.xml.in:3506
+#: data/freedesktop.org.xml.in:3581
 msgid "Source RPM package"
 msgstr "пакунок RPM з початковим кодом"
 
-#: freedesktop.org.xml.in:3513
+#: data/freedesktop.org.xml.in:3588
 msgid "Ruby script"
 msgstr "скрипт Ruby"
 
-#: freedesktop.org.xml.in:3524
+#: data/freedesktop.org.xml.in:3599
 msgid "Markaby script"
 msgstr "скрипт Markaby"
 
-#: freedesktop.org.xml.in:3530
+#: data/freedesktop.org.xml.in:3605
 msgid "Rust source code"
 msgstr "вихідний код мовою Rust"
 
-#: freedesktop.org.xml.in:3535
+#: data/freedesktop.org.xml.in:3610
 msgid "SC/Xspread spreadsheet"
 msgstr "ел. таблиця SC/Xspread"
 
-#: freedesktop.org.xml.in:3542
+#: data/freedesktop.org.xml.in:3617
 msgid "shell archive"
 msgstr "архів оболонки"
 
-#: freedesktop.org.xml.in:3547
+#: data/freedesktop.org.xml.in:3622
 msgid "libtool shared library"
 msgstr "спільна бібліотека libtool"
 
-#: freedesktop.org.xml.in:3553
+#: data/freedesktop.org.xml.in:3628
 msgid "shared library"
 msgstr "спільна бібліотека"
 
-#: freedesktop.org.xml.in:3573
+#: data/freedesktop.org.xml.in:3637
 msgid "shell script"
 msgstr "скрипт оболонки"
 
-#: freedesktop.org.xml.in:3594
+#: data/freedesktop.org.xml.in:3658
 msgid "Shockwave Flash file"
 msgstr "файл Shockwave Flash"
 
 #. translators: "Shorten" is the name of an audio codec
-#: freedesktop.org.xml.in:3607
+#: data/freedesktop.org.xml.in:3671
 msgid "Shorten audio"
 msgstr "звук Shorten"
 
-#: freedesktop.org.xml.in:3616
+#: data/freedesktop.org.xml.in:3680
 msgid "Siag spreadsheet"
 msgstr "ел. таблиця Siag"
 
-#: freedesktop.org.xml.in:3621
+#: data/freedesktop.org.xml.in:3685
 msgid "Skencil document"
 msgstr "документ Skencil"
 
-#: freedesktop.org.xml.in:3629
+#: data/freedesktop.org.xml.in:3693
 msgid "Stampede package"
 msgstr "пакунок Stampede"
 
-#: freedesktop.org.xml.in:3633
+#: data/freedesktop.org.xml.in:3697
 msgid "SG-1000 ROM"
 msgstr "ППП SG-1000"
 
 #. Translate this to "Master System/Mark III" if the console was known as such
 #. in your locale (probably only in Japan)
-#: freedesktop.org.xml.in:3639
+#: data/freedesktop.org.xml.in:3703
 msgid "Master System ROM"
 msgstr "ППП Master System"
 
-#: freedesktop.org.xml.in:3651
+#: data/freedesktop.org.xml.in:3715
 msgid "Game Gear ROM"
 msgstr "ППП Game Gear"
 
 #. Translate this as Super Famicom (in Far East Asia) or Super Nintendo (in
 #. Europe) if the console was known as such in your locale
-#: freedesktop.org.xml.in:3665
+#: data/freedesktop.org.xml.in:3729
 msgid "Super NES ROM"
 msgstr "ППП Super NES"
 
-#: freedesktop.org.xml.in:3672
+#: data/freedesktop.org.xml.in:3736
 msgid "StuffIt archive"
 msgstr "архів StuffIt"
 
-#: freedesktop.org.xml.in:3683
+#: data/freedesktop.org.xml.in:3747
 msgid "SubRip subtitles"
 msgstr "субтитри SubRip"
 
-#: freedesktop.org.xml.in:3695
+#: data/freedesktop.org.xml.in:3759
 msgid "WebVTT subtitles"
 msgstr "субтитри WebVTT"
 
-#: freedesktop.org.xml.in:3706
+#: data/freedesktop.org.xml.in:3770
 msgid "SAMI subtitles"
 msgstr "субтитри SAMI"
 
-#: freedesktop.org.xml.in:3718
+#: data/freedesktop.org.xml.in:3782
 msgid "MicroDVD subtitles"
 msgstr "субтитри MicroDVD"
 
-#: freedesktop.org.xml.in:3728
+#: data/freedesktop.org.xml.in:3792
 msgid "MPSub subtitles"
 msgstr "субтитри MPSub"
 
-#: freedesktop.org.xml.in:3738
+#: data/freedesktop.org.xml.in:3802
 msgid "SSA subtitles"
 msgstr "субтитри SSA"
 
-#: freedesktop.org.xml.in:3750
+#: data/freedesktop.org.xml.in:3814
 msgid "SubViewer subtitles"
 msgstr "субтитри SubViewer"
 
-#: freedesktop.org.xml.in:3758
+#: data/freedesktop.org.xml.in:3822
 msgid "iMelody ringtone"
 msgstr "рінгтон iMelody"
 
-#: freedesktop.org.xml.in:3768
+#: data/freedesktop.org.xml.in:3832
 msgid "SMAF audio"
 msgstr "звук SMAF"
 
-#: freedesktop.org.xml.in:3780
+#: data/freedesktop.org.xml.in:3844
 msgid "MRML playlist"
 msgstr "список відтворення MRML"
 
-#: freedesktop.org.xml.in:3790
+#: data/freedesktop.org.xml.in:3854
 msgid "XMF audio"
 msgstr "звук XMF"
 
-#: freedesktop.org.xml.in:3802
+#: data/freedesktop.org.xml.in:3866
 msgid "SV4 CPIO archive"
 msgstr "архів SV4 CPIO"
 
-#: freedesktop.org.xml.in:3807
+#: data/freedesktop.org.xml.in:3871
 msgid "SV4 CPIO archive (with CRC)"
 msgstr "архів SV4 CPIO (з CRC)"
 
-#: freedesktop.org.xml.in:3812
+#: data/freedesktop.org.xml.in:3876
 msgid "Tar archive"
 msgstr "архів tar"
 
-#: freedesktop.org.xml.in:3824
+#: data/freedesktop.org.xml.in:3888
 msgid "Tar archive (compressed)"
 msgstr "архів tar (стиснений)"
 
-#: freedesktop.org.xml.in:3831
+#: data/freedesktop.org.xml.in:3895
 msgid "generic font file"
 msgstr "загальний файл шрифту"
 
-#: freedesktop.org.xml.in:3836
+#: data/freedesktop.org.xml.in:3900
 msgid "packed font file"
 msgstr "запакований файл шрифту"
 
-#: freedesktop.org.xml.in:3841
+#: data/freedesktop.org.xml.in:3905
 msgid "TGIF document"
 msgstr "документ TGIF"
 
-#: freedesktop.org.xml.in:3849
+#: data/freedesktop.org.xml.in:3913
 msgid "theme"
 msgstr "тема"
 
-#: freedesktop.org.xml.in:3855
+#: data/freedesktop.org.xml.in:3919
 msgid "ToutDoux document"
 msgstr "документ ToutDoux"
 
-#: freedesktop.org.xml.in:3859
+#: data/freedesktop.org.xml.in:3923
 msgid "backup file"
 msgstr "резервна копія"
 
-#: freedesktop.org.xml.in:3867
+#: data/freedesktop.org.xml.in:3931
 msgid "Troff document"
 msgstr "документ Troff"
 
-#: freedesktop.org.xml.in:3882
+#: data/freedesktop.org.xml.in:3946
 msgid "Manpage manual document"
 msgstr "документ підручника man"
 
-#: freedesktop.org.xml.in:3888
+#: data/freedesktop.org.xml.in:3952
 msgid "manual page (compressed)"
 msgstr "сторінка посібника (стиснена)"
 
-#: freedesktop.org.xml.in:3892
+#: data/freedesktop.org.xml.in:3956
 msgid "Tar archive (LZO-compressed)"
 msgstr "архів tar (стиснений LZO)"
 
-#: freedesktop.org.xml.in:3899
+#: data/freedesktop.org.xml.in:3963
 msgid "XZ archive"
 msgstr "архів XZ"
 
-#: freedesktop.org.xml.in:3907
+#: data/freedesktop.org.xml.in:3971
 msgid "Tar archive (XZ-compressed)"
 msgstr "архів tar (стиснений XZ)"
 
-#: freedesktop.org.xml.in:3914
+#: data/freedesktop.org.xml.in:3978
 msgid "Zstandard archive"
 msgstr "архів Zstandard"
 
-#: freedesktop.org.xml.in:3922
+#: data/freedesktop.org.xml.in:3986
 msgid "Tar archive (Zstandard-compressed)"
 msgstr "архів tar archive (стиснений Zstandard)"
 
-#: freedesktop.org.xml.in:3929
+#: data/freedesktop.org.xml.in:3993
 msgid "PDF document (XZ-compressed)"
 msgstr "документ PDF (стиснений xz)"
 
-#: freedesktop.org.xml.in:3935
+#: data/freedesktop.org.xml.in:3999
 msgid "Ustar archive"
 msgstr "архів ustar"
 
-#: freedesktop.org.xml.in:3940
+#: data/freedesktop.org.xml.in:4004
 msgid "WAIS source code"
 msgstr "вихідний код мовою WAIS"
 
-#: freedesktop.org.xml.in:3946
+#: data/freedesktop.org.xml.in:4010
 msgid "WordPerfect/Drawperfect image"
 msgstr "зображення WordPerfect/Drawperfect"
 
-#: freedesktop.org.xml.in:3951
+#: data/freedesktop.org.xml.in:4015
 msgid "Bandai WonderSwan ROM"
 msgstr "ROM Bandai WonderSwan"
 
-#: freedesktop.org.xml.in:3956
+#: data/freedesktop.org.xml.in:4020
 msgid "Bandai WonderSwan Color ROM"
 msgstr "ROM Bandai WonderSwan Color"
 
-#: freedesktop.org.xml.in:3961
+#: data/freedesktop.org.xml.in:4025
 msgid "DER/PEM/Netscape-encoded X.509 certificate"
 msgstr "сертифікат X.509 у форматі DER/PEM/Netscape"
 
-#: freedesktop.org.xml.in:3969
+#: data/freedesktop.org.xml.in:4033
 msgid "empty document"
 msgstr "порожній документ"
 
-#: freedesktop.org.xml.in:3972
+#: data/freedesktop.org.xml.in:4036
 msgid "Zoo archive"
 msgstr "архів zoo"
 
-#: freedesktop.org.xml.in:3980
+#: data/freedesktop.org.xml.in:4044
 msgid "XHTML page"
 msgstr "сторінка XHTML"
 
-#: freedesktop.org.xml.in:3998
+#: data/freedesktop.org.xml.in:4062
 msgid "Zip archive"
 msgstr "архів zip"
 
-#: freedesktop.org.xml.in:4008
+#: data/freedesktop.org.xml.in:4072
 msgid "WIM disk image"
 msgstr "образ диска WIM"
 
-#: freedesktop.org.xml.in:4018
+#: data/freedesktop.org.xml.in:4082
 msgid "Dolby Digital audio"
 msgstr "звук Dolby Digital"
 
-#: freedesktop.org.xml.in:4025
+#: data/freedesktop.org.xml.in:4089
 msgid "DTS audio"
 msgstr "звукові дані DTS"
 
-#: freedesktop.org.xml.in:4036
+#: data/freedesktop.org.xml.in:4100
 msgid "DTSHD audio"
 msgstr "звукові дані DTSHD"
 
-#: freedesktop.org.xml.in:4045
+#: data/freedesktop.org.xml.in:4109
 msgid "AMR audio"
 msgstr "звук AMR"
 
-#: freedesktop.org.xml.in:4056
+#: data/freedesktop.org.xml.in:4120
 msgid "AMR-WB audio"
 msgstr "звук AMR-WB"
 
-#: freedesktop.org.xml.in:4067
+#: data/freedesktop.org.xml.in:4131
 msgid "ULAW (Sun) audio"
 msgstr "звук ULAW (Sun)"
 
-#: freedesktop.org.xml.in:4075
+#: data/freedesktop.org.xml.in:4139
 msgid "Commodore 64 audio"
 msgstr "звук Commodore 64"
 
-#: freedesktop.org.xml.in:4083
+#: data/freedesktop.org.xml.in:4147
 msgid "PCM audio"
 msgstr "звук PCM"
 
-#: freedesktop.org.xml.in:4101
+#: data/freedesktop.org.xml.in:4165
 msgid "AIFC audio"
 msgstr "звук AIFC"
 
-#: freedesktop.org.xml.in:4113
+#: data/freedesktop.org.xml.in:4177
 msgid "AIFF/Amiga/Mac audio"
 msgstr "звук AIFF/Amiga/Mac"
 
-#: freedesktop.org.xml.in:4125
+#: data/freedesktop.org.xml.in:4189
 msgid "Monkey's audio"
 msgstr "звук Monkey's"
 
-#: freedesktop.org.xml.in:4132
+#: data/freedesktop.org.xml.in:4196
 msgid "Audible.Com audio"
 msgstr "звук Audible.Com"
 
-#: freedesktop.org.xml.in:4144
+#: data/freedesktop.org.xml.in:4205
+msgid "Audible Enhanced audio"
+msgstr "звук Audible Enhanced"
+
+#: data/freedesktop.org.xml.in:4212
 msgid "Impulse Tracker audio"
 msgstr "звук Impulse Tracker"
 
-#: freedesktop.org.xml.in:4151
+#: data/freedesktop.org.xml.in:4219
 msgid "FLAC audio"
 msgstr "звук FLAC"
 
-#: freedesktop.org.xml.in:4159
+#: data/freedesktop.org.xml.in:4227
 msgid "WavPack audio"
 msgstr "звук WavPack"
 
-#: freedesktop.org.xml.in:4167
+#: data/freedesktop.org.xml.in:4235
 msgid "WavPack audio correction file"
 msgstr "файл корекції звуку WavPack"
 
-#: freedesktop.org.xml.in:4174
+#: data/freedesktop.org.xml.in:4242
 msgid "MIDI audio"
 msgstr "звук MIDI"
 
-#: freedesktop.org.xml.in:4184
+#: data/freedesktop.org.xml.in:4252
 msgid "compressed Tracker audio"
 msgstr "стиснутий звук Tracker"
 
-#: freedesktop.org.xml.in:4191
+#: data/freedesktop.org.xml.in:4259
 msgid "AAC audio"
 msgstr "звукові дані AAC"
 
-#: freedesktop.org.xml.in:4204
+#: data/freedesktop.org.xml.in:4272
 msgid "USAC audio"
 msgstr "звукові дані USAC"
 
-#: freedesktop.org.xml.in:4211
+#: data/freedesktop.org.xml.in:4279
 msgid "MPEG-4 audio"
 msgstr "звук MPEG-4"
 
-#: freedesktop.org.xml.in:4221
+#: data/freedesktop.org.xml.in:4289
 msgid "MPEG-4 ringtone"
 msgstr "рингтон MPEG-4"
 
-#: freedesktop.org.xml.in:4226
+#: data/freedesktop.org.xml.in:4294
 msgid "MPEG-4 video"
 msgstr "відеокліп MPEG-4"
 
-#: freedesktop.org.xml.in:4243
+#: data/freedesktop.org.xml.in:4311
 msgid "MPEG-4 audio book"
 msgstr "аудіокнига MPEG-4"
 
-#: freedesktop.org.xml.in:4252
+#: data/freedesktop.org.xml.in:4320
 msgid "3GPP multimedia file"
 msgstr "файл мультимедійних даних 3GPP"
 
-#: freedesktop.org.xml.in:4275
+#: data/freedesktop.org.xml.in:4343
 msgid "3GPP2 multimedia file"
 msgstr "файл мультимедійних даних 3GPP2"
 
-#: freedesktop.org.xml.in:4288
+#: data/freedesktop.org.xml.in:4355
 msgid "Amiga SoundTracker audio"
 msgstr "звук Amiga SoundTracker"
 
-#: freedesktop.org.xml.in:4332
+#: data/freedesktop.org.xml.in:4399
 msgid "MP2 audio"
 msgstr "звук MP2"
 
-#: freedesktop.org.xml.in:4337
+#: data/freedesktop.org.xml.in:4404
 msgid "MP3 audio"
 msgstr "звук MP3"
 
-#: freedesktop.org.xml.in:4350
+#: data/freedesktop.org.xml.in:4417
 msgid "MP3 audio (streamed)"
 msgstr "звук MP3 (потоковий)"
 
-#: freedesktop.org.xml.in:4365
+#: data/freedesktop.org.xml.in:4432
 msgid "HTTP Live Streaming playlist"
 msgstr "список відтворення HTTP Live Streaming"
 
-#: freedesktop.org.xml.in:4377
+#: data/freedesktop.org.xml.in:4444
 msgid "Microsoft ASX playlist"
 msgstr "список відтворення ASX Microsoft"
 
-#: freedesktop.org.xml.in:4394
+#: data/freedesktop.org.xml.in:4461
 msgid "PSF audio"
 msgstr "звук PSF"
 
-#: freedesktop.org.xml.in:4403
+#: data/freedesktop.org.xml.in:4470
 msgid "MiniPSF audio"
 msgstr "звук MiniPSF"
 
-#: freedesktop.org.xml.in:4410
+#: data/freedesktop.org.xml.in:4477
 msgid "PSFlib audio library"
 msgstr "аудіобібліотека PSFlib"
 
-#: freedesktop.org.xml.in:4417
+#: data/freedesktop.org.xml.in:4484
 msgid "Windows Media audio"
 msgstr "звук Windows Media"
 
-#: freedesktop.org.xml.in:4423
+#: data/freedesktop.org.xml.in:4490
 msgid "Musepack audio"
 msgstr "звук Musepack"
 
-#: freedesktop.org.xml.in:4432
+#: data/freedesktop.org.xml.in:4500
 msgid "RealAudio document"
 msgstr "документ RealAudio"
 
-#: freedesktop.org.xml.in:4439
+#: data/freedesktop.org.xml.in:4507
 msgid "RealMedia playlist"
 msgstr "список відтворення RealMedia"
 
-#: freedesktop.org.xml.in:4443
+#: data/freedesktop.org.xml.in:4511
 msgid "RealVideo document"
 msgstr "документ RealVideo"
 
-#: freedesktop.org.xml.in:4449
+#: data/freedesktop.org.xml.in:4517
 msgid "RealMedia document"
 msgstr "документ RealMedia"
 
-#: freedesktop.org.xml.in:4463
+#: data/freedesktop.org.xml.in:4531
 msgid "RealPix document"
 msgstr "документ RealPix"
 
-#: freedesktop.org.xml.in:4467
+#: data/freedesktop.org.xml.in:4535
 msgid "RealText document"
 msgstr "документ RealText"
 
-#: freedesktop.org.xml.in:4471
+#: data/freedesktop.org.xml.in:4539
 msgid "RIFF audio"
 msgstr "звук RIFF"
 
-#: freedesktop.org.xml.in:4474
+#: data/freedesktop.org.xml.in:4542
 msgid "RIFF container"
 msgstr "контейнер RIFF"
 
-#: freedesktop.org.xml.in:4481
+#: data/freedesktop.org.xml.in:4549
 msgid "Scream Tracker 3 audio"
 msgstr "звук Scream Tracker 3"
 
-#: freedesktop.org.xml.in:4488
+#: data/freedesktop.org.xml.in:4556
 msgid "MP3 ShoutCast playlist"
 msgstr "список програвання MP3 ShoutCast"
 
-#: freedesktop.org.xml.in:4499
+#: data/freedesktop.org.xml.in:4567
 msgid "Scream Tracker audio"
 msgstr "звук Scream Tracker"
 
-#: freedesktop.org.xml.in:4508
+#: data/freedesktop.org.xml.in:4576
 msgid "VOC audio"
 msgstr "звук VOC"
 
-#: freedesktop.org.xml.in:4512
+#: data/freedesktop.org.xml.in:4580
 msgid "WAV audio"
 msgstr "звук WAV"
 
-#: freedesktop.org.xml.in:4522
+#: data/freedesktop.org.xml.in:4590
 msgid "Scream Tracker instrument"
 msgstr "інструмент Scream Tracker"
 
-#: freedesktop.org.xml.in:4529
+#: data/freedesktop.org.xml.in:4597
 msgid "FastTracker II audio"
 msgstr "звук FastTracker II"
 
-#: freedesktop.org.xml.in:4536
+#: data/freedesktop.org.xml.in:4604
 msgid "TrueAudio audio"
 msgstr "звук TrueAudio"
 
-#: freedesktop.org.xml.in:4544
+#: data/freedesktop.org.xml.in:4612
 msgid "Windows BMP image"
 msgstr "зображення Windows BMP"
 
-#: freedesktop.org.xml.in:4559
+#: data/freedesktop.org.xml.in:4627
 msgid "WBMP image"
 msgstr "зображення WBMP"
 
-#: freedesktop.org.xml.in:4565
+#: data/freedesktop.org.xml.in:4633
 msgid "CGM image"
 msgstr "зображення CGM"
 
-#: freedesktop.org.xml.in:4571
+#: data/freedesktop.org.xml.in:4639
 msgid "CCITT G3 fax image"
 msgstr "зображення факсу G3 CCITT"
 
-#: freedesktop.org.xml.in:4576
+#: data/freedesktop.org.xml.in:4644
 msgid "GIF image"
 msgstr "зображення GIF"
 
-#: freedesktop.org.xml.in:4583
+#: data/freedesktop.org.xml.in:4651
 msgid "HEIF image"
 msgstr "зображення HEIF"
 
-#: freedesktop.org.xml.in:4593
+#: data/freedesktop.org.xml.in:4661
 msgid "IEF image"
 msgstr "зображення IEF"
 
-#: freedesktop.org.xml.in:4597
+#: data/freedesktop.org.xml.in:4665
 msgid "JPEG image"
 msgstr "зображення JPEG"
 
-#: freedesktop.org.xml.in:4608
+#: data/freedesktop.org.xml.in:4676
 msgid "MJPEG video stream"
 msgstr "відеопотік MJPEG"
 
-#: freedesktop.org.xml.in:4616
+#: data/freedesktop.org.xml.in:4684
 msgid "JPEG-2000 codestream"
 msgstr "потік коду JPEG-2000"
 
-#: freedesktop.org.xml.in:4625
+#: data/freedesktop.org.xml.in:4693
 msgid "JPEG-2000 JP2 image"
 msgstr "зображення JP2 JPEG-2000"
 
-#: freedesktop.org.xml.in:4638
+#: data/freedesktop.org.xml.in:4706
 msgid "JPEG-2000 JPX image"
 msgstr "зображення JPX JPEG-2000"
 
-#: freedesktop.org.xml.in:4648
+#: data/freedesktop.org.xml.in:4716
 msgid "JPEG-2000 JPM image"
 msgstr "зображення JPM JPEG-2000"
 
-#: freedesktop.org.xml.in:4658
+#: data/freedesktop.org.xml.in:4726
 msgid "JPEG-2000 MJ2 video"
 msgstr "зображення MJ2 JPEG-2000"
 
-#: freedesktop.org.xml.in:4668
+#: data/freedesktop.org.xml.in:4736
 msgid "OpenRaster image"
 msgstr "зображення OpenRaster"
 
-#: freedesktop.org.xml.in:4680
+#: data/freedesktop.org.xml.in:4748
 msgid "DirectDraw surface"
 msgstr "поверхня DirectDraw"
 
-#: freedesktop.org.xml.in:4687
+#: data/freedesktop.org.xml.in:4755
 msgid "X11 cursor"
 msgstr "курсор X11"
 
-#: freedesktop.org.xml.in:4693
+#: data/freedesktop.org.xml.in:4761
 msgid "EXR image"
 msgstr "зображення EXR"
 
-#: freedesktop.org.xml.in:4700
+#: data/freedesktop.org.xml.in:4768
 msgid "Macintosh Quickdraw/PICT drawing"
 msgstr "малюнок Macintosh Quickdraw/PICT"
 
-#: freedesktop.org.xml.in:4725
+#: data/freedesktop.org.xml.in:4793
 msgid "UFRaw ID image"
 msgstr "зображення UFRaw ID"
 
-#: freedesktop.org.xml.in:4733
+#: data/freedesktop.org.xml.in:4801
 msgid "digital raw image"
 msgstr "зображення цифрового негатива"
 
-#: freedesktop.org.xml.in:4736
+#: data/freedesktop.org.xml.in:4804
 msgid "Adobe DNG negative"
 msgstr "цифровий негатив DNG Adobe"
 
-#: freedesktop.org.xml.in:4746
+#: data/freedesktop.org.xml.in:4814
 msgid "Canon CRW raw image"
 msgstr "цифровий негатив CRW Canon"
 
-#: freedesktop.org.xml.in:4757
+#: data/freedesktop.org.xml.in:4825
 msgid "Canon CR2 raw image"
 msgstr "цифровий негатив CR2 Canon"
 
-#: freedesktop.org.xml.in:4765
+#: data/freedesktop.org.xml.in:4833
 msgid "Fuji RAF raw image"
 msgstr "Цифровий негатив RAF Fuji"
 
-#: freedesktop.org.xml.in:4775
+#: data/freedesktop.org.xml.in:4843
 msgid "Kodak DCR raw image"
 msgstr "цифровий негатив DCR Kodak"
 
-#: freedesktop.org.xml.in:4783
+#: data/freedesktop.org.xml.in:4851
 msgid "Kodak K25 raw image"
 msgstr "цифровий негатив K25 Kodak"
 
-#: freedesktop.org.xml.in:4791
+#: data/freedesktop.org.xml.in:4859
 msgid "Kodak KDC raw image"
 msgstr "цифровий негатив KDC Kodak"
 
-#: freedesktop.org.xml.in:4802
+#: data/freedesktop.org.xml.in:4870
 msgid "Minolta MRW raw image"
 msgstr "цифровий негатив MRW Minolta"
 
-#: freedesktop.org.xml.in:4812
+#: data/freedesktop.org.xml.in:4880
 msgid "Nikon NEF raw image"
 msgstr "цифровий негатив NEF Nikon"
 
-#: freedesktop.org.xml.in:4820
+#: data/freedesktop.org.xml.in:4888
 msgid "Olympus ORF raw image"
 msgstr "цифровий негатив ORF Olympus"
 
-#: freedesktop.org.xml.in:4835 freedesktop.org.xml.in:4845
+#: data/freedesktop.org.xml.in:4903 data/freedesktop.org.xml.in:4913
 msgid "Panasonic raw image"
 msgstr "цифровий негатив Panasonic"
 
-#: freedesktop.org.xml.in:4855
+#: data/freedesktop.org.xml.in:4923
 msgid "Pentax PEF raw image"
 msgstr "цифровий негатив PEF Pentax"
 
-#: freedesktop.org.xml.in:4863
+#: data/freedesktop.org.xml.in:4931
 msgid "Sigma X3F raw image"
 msgstr "цифровий негатив X3F Sigma"
 
-#: freedesktop.org.xml.in:4877
+#: data/freedesktop.org.xml.in:4945
 msgid "Sony SRF raw image"
 msgstr "цифровий негатив SRF Sony"
 
-#: freedesktop.org.xml.in:4885
+#: data/freedesktop.org.xml.in:4953
 msgid "Sony SR2 raw image"
 msgstr "цифровий негатив SR2 Sony"
 
-#: freedesktop.org.xml.in:4893
+#: data/freedesktop.org.xml.in:4961
 msgid "Sony ARW raw image"
 msgstr "цифровий негатив ARW Sony"
 
-#: freedesktop.org.xml.in:4901
+#: data/freedesktop.org.xml.in:4969
 msgid "PNG image"
 msgstr "зображення PNG"
 
-#: freedesktop.org.xml.in:4908
+#: data/freedesktop.org.xml.in:4976
 msgid "RLE bitmap image"
 msgstr "растрове зображення RLE"
 
-#: freedesktop.org.xml.in:4914
+#: data/freedesktop.org.xml.in:4982
 msgid "SVG image"
 msgstr "зображення SVG"
 
-#: freedesktop.org.xml.in:4926
+#: data/freedesktop.org.xml.in:5000
 msgid "compressed SVG image"
 msgstr "стиснене зображення SVG"
 
-#: freedesktop.org.xml.in:4933
+#: data/freedesktop.org.xml.in:5007
 msgid "TIFF image"
 msgstr "зображення TIFF"
 
-#: freedesktop.org.xml.in:4944
+#: data/freedesktop.org.xml.in:5018
 msgid "Multi-page TIFF image"
 msgstr "багатосторінкове зображення TIFF"
 
-#: freedesktop.org.xml.in:4950
+#: data/freedesktop.org.xml.in:5024
 msgid "AutoCAD image"
 msgstr "зображення AutoCAD"
 
-#: freedesktop.org.xml.in:4954
+#: data/freedesktop.org.xml.in:5028
 msgid "DXF vector image"
 msgstr "векторне зображення DXF"
 
-#: freedesktop.org.xml.in:4962
+#: data/freedesktop.org.xml.in:5036
 msgid "MDI image"
 msgstr "зображення MDI"
 
-#: freedesktop.org.xml.in:4971
+#: data/freedesktop.org.xml.in:5045
 msgid "WebP image"
 msgstr "зображення WebP"
 
-#: freedesktop.org.xml.in:4980
+#: data/freedesktop.org.xml.in:5054
 msgid "3D Studio image"
 msgstr "зображення 3D Studio"
 
-#: freedesktop.org.xml.in:4984
+#: data/freedesktop.org.xml.in:5061
 msgid "Applix Graphics image"
 msgstr "зображення Applix Graphics"
 
-#: freedesktop.org.xml.in:4993
+#: data/freedesktop.org.xml.in:5070
 msgid "EPS image (bzip-compressed)"
 msgstr "зображення EPS (стиснене bzip)"
 
-#: freedesktop.org.xml.in:5000
+#: data/freedesktop.org.xml.in:5077
 msgid "CMU raster image"
 msgstr "растрове зображення CMU"
 
-#: freedesktop.org.xml.in:5004
+#: data/freedesktop.org.xml.in:5081
 msgid "compressed GIMP image"
 msgstr "стиснене зображення GIMP"
 
-#: freedesktop.org.xml.in:5009
+#: data/freedesktop.org.xml.in:5086
 msgid "DICOM image"
 msgstr "зображення DICOM"
 
-#: freedesktop.org.xml.in:5020
+#: data/freedesktop.org.xml.in:5097
 msgid "DocBook document"
 msgstr "документ DocBook"
 
-#: freedesktop.org.xml.in:5035
+#: data/freedesktop.org.xml.in:5112
 msgid "DIB image"
 msgstr "зображення DIB"
 
-#: freedesktop.org.xml.in:5043
+#: data/freedesktop.org.xml.in:5120
 msgid "DjVu image"
 msgstr "зображення DjVu"
 
-#: freedesktop.org.xml.in:5058
+#: data/freedesktop.org.xml.in:5135
 msgid "DjVu document"
 msgstr "документ DjVu"
 
-#: freedesktop.org.xml.in:5073
+#: data/freedesktop.org.xml.in:5150
 msgid "DPX image"
 msgstr "зображення DPX"
 
-#: freedesktop.org.xml.in:5081
+#: data/freedesktop.org.xml.in:5158
 msgid "EPS image"
 msgstr "зображення EPS"
 
-#: freedesktop.org.xml.in:5099
+#: data/freedesktop.org.xml.in:5176
 msgid "FITS document"
 msgstr "документ FITS"
 
-#: freedesktop.org.xml.in:5109
+#: data/freedesktop.org.xml.in:5186
 msgid "FPX image"
 msgstr "зображення FPX"
 
-#: freedesktop.org.xml.in:5117
+#: data/freedesktop.org.xml.in:5194
 msgid "EPS image (gzip-compressed)"
 msgstr "зображення EPS (стиснене gzip)"
 
-#: freedesktop.org.xml.in:5124
+#: data/freedesktop.org.xml.in:5201
 msgid "Windows icon"
 msgstr "піктограма Windows"
 
-#: freedesktop.org.xml.in:5139
+#: data/freedesktop.org.xml.in:5216
 msgid "MacOS X icon"
 msgstr "піктограма MacOS X"
 
-#: freedesktop.org.xml.in:5146
+#: data/freedesktop.org.xml.in:5223
 msgid "ILBM image"
 msgstr "зображення ILBM"
 
-#: freedesktop.org.xml.in:5160
+#: data/freedesktop.org.xml.in:5237
 msgid "JNG image"
 msgstr "зображення JNG"
 
-#: freedesktop.org.xml.in:5166
+#: data/freedesktop.org.xml.in:5243
 msgid "LightWave object"
 msgstr "об'єкт LightWave"
 
-#: freedesktop.org.xml.in:5171
+#: data/freedesktop.org.xml.in:5248
 msgid "LightWave scene"
 msgstr "сцена LightWave"
 
-#: freedesktop.org.xml.in:5175
+#: data/freedesktop.org.xml.in:5252
 msgid "MacPaint Bitmap image"
 msgstr "растрове зображення MacPaint"
 
-#: freedesktop.org.xml.in:5179
+#: data/freedesktop.org.xml.in:5256
 msgid "Office drawing"
 msgstr "малюнок Office"
 
-#: freedesktop.org.xml.in:5183
+#: data/freedesktop.org.xml.in:5260
 msgid "NIFF image"
 msgstr "зображення NIFF"
 
-#: freedesktop.org.xml.in:5189
+#: data/freedesktop.org.xml.in:5266
 msgid "PCX image"
 msgstr "зображення PCX"
 
-#: freedesktop.org.xml.in:5204
+#: data/freedesktop.org.xml.in:5281
 msgid "PCD image"
 msgstr "зображення PCD"
 
-#: freedesktop.org.xml.in:5210
+#: data/freedesktop.org.xml.in:5287
 msgid "PNM image"
 msgstr "зображення PNM"
 
-#: freedesktop.org.xml.in:5214
+#: data/freedesktop.org.xml.in:5291
 msgid "PBM image"
 msgstr "зображення PBM"
 
-#: freedesktop.org.xml.in:5235
+#: data/freedesktop.org.xml.in:5312
 msgid "PGM image"
 msgstr "зображення PGM"
 
-#: freedesktop.org.xml.in:5256
+#: data/freedesktop.org.xml.in:5333
 msgid "PPM image"
 msgstr "зображення PPM"
 
-#: freedesktop.org.xml.in:5277
+#: data/freedesktop.org.xml.in:5354
 msgid "Photoshop image"
 msgstr "зображення Photoshop"
 
-#: freedesktop.org.xml.in:5290
+#: data/freedesktop.org.xml.in:5367
 msgid "RGB image"
 msgstr "зображення RGB"
 
-#: freedesktop.org.xml.in:5294
+#: data/freedesktop.org.xml.in:5371
 msgid "SGI image"
 msgstr "зображення SGI"
 
-#: freedesktop.org.xml.in:5298
+#: data/freedesktop.org.xml.in:5375
 msgid "Sun raster image"
 msgstr "растрове зображення Sun"
 
-#: freedesktop.org.xml.in:5305
+#: data/freedesktop.org.xml.in:5382
 msgid "TGA image"
 msgstr "зображення TGA"
 
-#: freedesktop.org.xml.in:5331
+#: data/freedesktop.org.xml.in:5408
 msgid "Windows cursor"
 msgstr "курсор Windows"
 
-#: freedesktop.org.xml.in:5340
+#: data/freedesktop.org.xml.in:5417
 msgid "Windows animated cursor"
 msgstr "анімований курсор Windows"
 
-#: freedesktop.org.xml.in:5349
+#: data/freedesktop.org.xml.in:5426
 msgid "EMF image"
 msgstr "зображення EMF"
 
-#: freedesktop.org.xml.in:5367
+#: data/freedesktop.org.xml.in:5444
 msgid "WMF image"
 msgstr "зображення WMF"
 
-#: freedesktop.org.xml.in:5391
+#: data/freedesktop.org.xml.in:5468
 msgid "XBM image"
 msgstr "зображення XBM"
 
-#: freedesktop.org.xml.in:5397
+#: data/freedesktop.org.xml.in:5474
 msgid "GIMP image"
 msgstr "зображення GIMP"
 
-#: freedesktop.org.xml.in:5405
+#: data/freedesktop.org.xml.in:5482
 msgid "GIMP brush"
 msgstr "пензель GIMP"
 
-#: freedesktop.org.xml.in:5412
+#: data/freedesktop.org.xml.in:5489
 msgid "GIMP brush pipe"
 msgstr "канал пензлів GIMP"
 
-#: freedesktop.org.xml.in:5416
+#: data/freedesktop.org.xml.in:5493
 msgid "GIMP pattern"
 msgstr "візерунок GIMP"
 
-#: freedesktop.org.xml.in:5423
+#: data/freedesktop.org.xml.in:5500
 msgid "XFig image"
 msgstr "зображення XFig"
 
-#: freedesktop.org.xml.in:5430
+#: data/freedesktop.org.xml.in:5507
 msgid "XPM image"
 msgstr "зображення XPM"
 
-#: freedesktop.org.xml.in:5440
+#: data/freedesktop.org.xml.in:5517
 msgid "X window image"
 msgstr "зображення X window"
 
-#: freedesktop.org.xml.in:5444
+#: data/freedesktop.org.xml.in:5521
 msgid "block device"
 msgstr "блоковий пристрій"
 
-#: freedesktop.org.xml.in:5447
+#: data/freedesktop.org.xml.in:5524
 msgid "character device"
 msgstr "символьний пристрій"
 
-#: freedesktop.org.xml.in:5450
+#: data/freedesktop.org.xml.in:5527
 msgid "folder"
 msgstr "тека"
 
-#: freedesktop.org.xml.in:5455
+#: data/freedesktop.org.xml.in:5532
 msgid "pipe"
 msgstr "канал"
 
-#: freedesktop.org.xml.in:5458
+#: data/freedesktop.org.xml.in:5535
 msgid "mount point"
 msgstr "точка монтування"
 
-#: freedesktop.org.xml.in:5462
+#: data/freedesktop.org.xml.in:5539
 msgid "socket"
 msgstr "сокет"
 
-#: freedesktop.org.xml.in:5465
+#: data/freedesktop.org.xml.in:5542
 msgid "symbolic link"
 msgstr "символічне посилання"
 
-#: freedesktop.org.xml.in:5468
+#: data/freedesktop.org.xml.in:5545
 msgid "mail delivery report"
 msgstr "звіт про доставку пошти"
 
-#: freedesktop.org.xml.in:5473
+#: data/freedesktop.org.xml.in:5550
 msgid "mail disposition report"
 msgstr "звіт про розташування пошти"
 
-#: freedesktop.org.xml.in:5478
+#: data/freedesktop.org.xml.in:5555
 msgid "reference to remote file"
 msgstr "посилання на віддалений файл"
 
-#: freedesktop.org.xml.in:5482
+#: data/freedesktop.org.xml.in:5559
 msgid "Usenet news message"
 msgstr "повідомлення новин Usenet"
 
-#: freedesktop.org.xml.in:5492
+#: data/freedesktop.org.xml.in:5569
 msgid "partial email message"
 msgstr "часткове поштове повідомлення"
 
-#: freedesktop.org.xml.in:5497
+#: data/freedesktop.org.xml.in:5574
 msgid "email message"
 msgstr "повідомлення email"
 
-#: freedesktop.org.xml.in:5515
+#: data/freedesktop.org.xml.in:5592
 msgid "GNU mail message"
 msgstr "поштове повідомлення GNU"
 
-#: freedesktop.org.xml.in:5520
+#: data/freedesktop.org.xml.in:5597
 msgid "IGES document"
 msgstr "документ IGES"
 
-#: freedesktop.org.xml.in:5533
+#: data/freedesktop.org.xml.in:5610
 msgid "VRML document"
 msgstr "документ VRML"
 
-#: freedesktop.org.xml.in:5546
+#: data/freedesktop.org.xml.in:5623
 msgid "message in several formats"
 msgstr "повідомлення у кількох форматах"
 
-#: freedesktop.org.xml.in:5549
+#: data/freedesktop.org.xml.in:5626
 msgid "Macintosh AppleDouble-encoded file"
 msgstr "файл закодований Macintosh AppleDouble"
 
-#: freedesktop.org.xml.in:5552
+#: data/freedesktop.org.xml.in:5629
 msgid "message digest"
 msgstr "збірка повідомлень"
 
-#: freedesktop.org.xml.in:5555
+#: data/freedesktop.org.xml.in:5632
 msgid "encrypted message"
 msgstr "шифроване повідомлення"
 
-#: freedesktop.org.xml.in:5558
+#: data/freedesktop.org.xml.in:5635
 msgid "compound documents"
 msgstr "складні документи"
 
-#: freedesktop.org.xml.in:5561
+#: data/freedesktop.org.xml.in:5638
 msgid "compound document"
 msgstr "складний документ"
 
-#: freedesktop.org.xml.in:5564
+#: data/freedesktop.org.xml.in:5641
 msgid "mail system report"
 msgstr "звіт поштової системи"
 
-#: freedesktop.org.xml.in:5567
+#: data/freedesktop.org.xml.in:5644
 msgid "signed message"
 msgstr "підписане повідомлення"
 
-#: freedesktop.org.xml.in:5570
+#: data/freedesktop.org.xml.in:5647
 msgid "stream of data (server push)"
 msgstr "потік даних (від сервера)"
 
-#: freedesktop.org.xml.in:5573
+#: data/freedesktop.org.xml.in:5650
 msgid "VCS/ICS calendar"
 msgstr "календар VCS/ICS"
 
-#: freedesktop.org.xml.in:5587
+#: data/freedesktop.org.xml.in:5664
 msgid "CSS stylesheet"
 msgstr "таблиця стилів CSS"
 
-#: freedesktop.org.xml.in:5594
+#: data/freedesktop.org.xml.in:5671
 msgid "electronic business card"
 msgstr "електронна бізнес-картка"
 
-#: freedesktop.org.xml.in:5608
+#: data/freedesktop.org.xml.in:5685
 msgid "Turtle document"
 msgstr "документ Turtle"
 
-#: freedesktop.org.xml.in:5613
+#: data/freedesktop.org.xml.in:5690
 msgid "txt2tags document"
 msgstr "документ txt2tags"
 
-#: freedesktop.org.xml.in:5622
+#: data/freedesktop.org.xml.in:5699
 msgid "Verilog source code"
 msgstr "вихідний код мовою Verilog"
 
-#: freedesktop.org.xml.in:5627
+#: data/freedesktop.org.xml.in:5704
 msgid "SystemVerilog header"
 msgstr "заголовки SystemVerilog"
 
-#: freedesktop.org.xml.in:5632
+#: data/freedesktop.org.xml.in:5709
 msgid "SystemVerilog source code"
 msgstr "вихідний файл мовою SystemVerilog"
 
-#: freedesktop.org.xml.in:5637
+#: data/freedesktop.org.xml.in:5714
 msgid "VHDL source code"
 msgstr "вихідний код мовою VHDL"
 
-#: freedesktop.org.xml.in:5645
+#: data/freedesktop.org.xml.in:5722
 msgid "enriched text document"
 msgstr "форматований текстовий документ"
 
-#: freedesktop.org.xml.in:5649
+#: data/freedesktop.org.xml.in:5726
 msgid "help page"
 msgstr "сторінка довідки"
 
-#: freedesktop.org.xml.in:5653
+#: data/freedesktop.org.xml.in:5730
 msgid "plain text document"
 msgstr "звичайний текстовий документ"
 
-#: freedesktop.org.xml.in:5663
+#: data/freedesktop.org.xml.in:5740
 msgid "RDF file"
 msgstr "файл RDF"
 
-#: freedesktop.org.xml.in:5674
+#: data/freedesktop.org.xml.in:5751
 msgid "reStructuredText document"
 msgstr "документ reStructuredText"
 
-#: freedesktop.org.xml.in:5679
+#: data/freedesktop.org.xml.in:5756
 msgid "OWL XML file"
 msgstr "файл XML OWL"
 
-#: freedesktop.org.xml.in:5690
+#: data/freedesktop.org.xml.in:5767
 msgid "email headers"
 msgstr "заголовки email"
 
-#: freedesktop.org.xml.in:5694
+#: data/freedesktop.org.xml.in:5771
 msgid "rich text document"
 msgstr "форматований текстовий документ"
 
-#: freedesktop.org.xml.in:5699
+#: data/freedesktop.org.xml.in:5776
 msgid "RSS summary"
 msgstr "зведення сайту RSS"
 
-#: freedesktop.org.xml.in:5712
+#: data/freedesktop.org.xml.in:5789
 msgid "Atom syndication feed"
 msgstr "трансляція подач Atom"
 
-#: freedesktop.org.xml.in:5722
+#: data/freedesktop.org.xml.in:5799
 msgid "OPML syndication feed"
 msgstr "трансляція подач OPML"
 
-#: freedesktop.org.xml.in:5732
+#: data/freedesktop.org.xml.in:5809
 msgid "SGML document"
 msgstr "документ SGML"
 
-#: freedesktop.org.xml.in:5740
+#: data/freedesktop.org.xml.in:5817
 msgid "spreadsheet interchange document"
 msgstr "документ обміну ел. таблицями"
 
-#: freedesktop.org.xml.in:5749
+#: data/freedesktop.org.xml.in:5826
 msgid "TSV document"
 msgstr "документ TSV"
 
-#: freedesktop.org.xml.in:5756
+#: data/freedesktop.org.xml.in:5833
 msgid "Graphviz DOT graph"
 msgstr "граф DOT Graphviz"
 
-#: freedesktop.org.xml.in:5768
+#: data/freedesktop.org.xml.in:5845
 msgid "JAD document"
 msgstr "документ JAD"
 
-#: freedesktop.org.xml.in:5777
+#: data/freedesktop.org.xml.in:5854
 msgid "WML document"
 msgstr "документ WML"
 
-#: freedesktop.org.xml.in:5784
+#: data/freedesktop.org.xml.in:5861
 msgid "WMLScript program"
 msgstr "програма мовою WMLScript"
 
-#: freedesktop.org.xml.in:5788
+#: data/freedesktop.org.xml.in:5865
 msgid "WarpScript source code"
 msgstr "вихідний код мовою WarpScript"
 
-#: freedesktop.org.xml.in:5793
+#: data/freedesktop.org.xml.in:5870
 msgid "ACE archive"
 msgstr "архів ACE"
 
-#: freedesktop.org.xml.in:5801
+#: data/freedesktop.org.xml.in:5878
 msgid "Ada source code"
 msgstr "вихідний код мовою Ada"
 
-#: freedesktop.org.xml.in:5807
+#: data/freedesktop.org.xml.in:5884
 msgid "author list"
 msgstr "перелік авторів"
 
-#: freedesktop.org.xml.in:5812
+#: data/freedesktop.org.xml.in:5889
 msgid "BibTeX document"
 msgstr "документ BibTeX"
 
-#: freedesktop.org.xml.in:5820
+#: data/freedesktop.org.xml.in:5897
 msgid "C++ header"
 msgstr "файл заголовків мовою C++"
 
-#: freedesktop.org.xml.in:5829
+#: data/freedesktop.org.xml.in:5906
 msgid "C++ source code"
 msgstr "вихідний код мовою C++"
 
-#: freedesktop.org.xml.in:5838
+#: data/freedesktop.org.xml.in:5915
 msgid "ChangeLog document"
 msgstr "документ ChangeLog"
 
-#: freedesktop.org.xml.in:5843
+#: data/freedesktop.org.xml.in:5920
 msgid "C header"
 msgstr "файл заголовків мовою C"
 
-#: freedesktop.org.xml.in:5848
+#: data/freedesktop.org.xml.in:5925
 msgid "CMake source code"
 msgstr "вихідний код CMake"
 
-#: freedesktop.org.xml.in:5854
+#: data/freedesktop.org.xml.in:5931
+msgid "Common Lisp source code"
+msgstr "вихідний код мовою Common Lisp"
+
+#: data/freedesktop.org.xml.in:5939
 msgid "CSV document"
 msgstr "документ CSV"
 
-#: freedesktop.org.xml.in:5863
+#: data/freedesktop.org.xml.in:5948
 msgid "CSV Schema document"
 msgstr "документ Schema у форматі CSV"
 
-#: freedesktop.org.xml.in:5870
+#: data/freedesktop.org.xml.in:5955
 msgid "license terms"
 msgstr "ліцензійні умови"
 
-#: freedesktop.org.xml.in:5875
+#: data/freedesktop.org.xml.in:5960
 msgid "author credits"
 msgstr "подяки авторам програми"
 
-#: freedesktop.org.xml.in:5880
+#: data/freedesktop.org.xml.in:5965
 msgid "C source code"
 msgstr "вихідний код мовою C"
 
-#: freedesktop.org.xml.in:5891
+#: data/freedesktop.org.xml.in:5976
 msgid "C# source code"
 msgstr "вихідний код мовою C#"
 
-#: freedesktop.org.xml.in:5896
+#: data/freedesktop.org.xml.in:5981
 msgid "Vala source code"
 msgstr "вихідний код мовою Vala"
 
-#: freedesktop.org.xml.in:5902
+#: data/freedesktop.org.xml.in:5987
 msgid "OOC source code"
 msgstr "вихідний код мовою OOC"
 
-#: freedesktop.org.xml.in:5909
+#: data/freedesktop.org.xml.in:5994
 msgid "DCL script"
 msgstr "скрипт DCL"
 
-#: freedesktop.org.xml.in:5916
+#: data/freedesktop.org.xml.in:6001
 msgid "DSSSL document"
 msgstr "документ DSSSL"
 
-#: freedesktop.org.xml.in:5923
+#: data/freedesktop.org.xml.in:6008
 msgid "D source code"
 msgstr "вихідний код мовою D"
 
-#: freedesktop.org.xml.in:5929
+#: data/freedesktop.org.xml.in:6014
 msgid "DTD file"
 msgstr "файл DTD"
 
-#: freedesktop.org.xml.in:5938
+#: data/freedesktop.org.xml.in:6023
 msgid "Eiffel source code"
 msgstr "вихідний код мовою Eiffel"
 
-#: freedesktop.org.xml.in:5944
+#: data/freedesktop.org.xml.in:6029
 msgid "Emacs Lisp source code"
 msgstr "вихідний код мовою Emacs Lisp"
 
-#: freedesktop.org.xml.in:5953
+#: data/freedesktop.org.xml.in:6038
 msgid "Erlang source code"
 msgstr "вихідний код мовою Erlang"
 
-#: freedesktop.org.xml.in:5958
+#: data/freedesktop.org.xml.in:6043
 msgid "Fortran source code"
 msgstr "вихідний код мовою Fortran"
 
-#: freedesktop.org.xml.in:5966
+#: data/freedesktop.org.xml.in:6051
 msgid "Genie source code"
 msgstr "вихідний код мовою Genie"
 
-#: freedesktop.org.xml.in:5972
+#: data/freedesktop.org.xml.in:6057
 msgid "translation file"
 msgstr "файл перекладу"
 
-#: freedesktop.org.xml.in:5979
+#: data/freedesktop.org.xml.in:6064
 msgid "translation template"
 msgstr "шаблон перекладу"
 
-#: freedesktop.org.xml.in:5988
+#: data/freedesktop.org.xml.in:6073
 msgid "Gherkin document"
 msgstr "документ Gherkin"
 
-#: freedesktop.org.xml.in:5993
+#: data/freedesktop.org.xml.in:6078
 msgid "HTML document"
 msgstr "документ HTML"
 
-#: freedesktop.org.xml.in:6020
+#: data/freedesktop.org.xml.in:6107
 msgid "Web application cache file"
 msgstr "файл кешу вебпрограми"
 
-#: freedesktop.org.xml.in:6033
+#: data/freedesktop.org.xml.in:6120
 msgid "Google Video Pointer shortcut"
 msgstr "скорочення вказівника відео Google"
 
-#: freedesktop.org.xml.in:6042
+#: data/freedesktop.org.xml.in:6129
 msgid "Haskell source code"
 msgstr "вихідний код мовою Haskell"
 
-#: freedesktop.org.xml.in:6047
+#: data/freedesktop.org.xml.in:6134
 msgid "IDL document"
 msgstr "документ IDL"
 
-#: freedesktop.org.xml.in:6054
+#: data/freedesktop.org.xml.in:6141
 msgid "installation instructions"
 msgstr "інструкції з встановлення"
 
-#: freedesktop.org.xml.in:6059
+#: data/freedesktop.org.xml.in:6146
 msgid "Java source code"
 msgstr "вихідний код мовою Java"
 
-#: freedesktop.org.xml.in:6064
+#: data/freedesktop.org.xml.in:6151
 msgid "LDIF address book"
 msgstr "адресна книга LDIF"
 
-#: freedesktop.org.xml.in:6075
+#: data/freedesktop.org.xml.in:6162
 msgid "Lilypond music sheet"
 msgstr "нотний запис Lilypond"
 
-#: freedesktop.org.xml.in:6080
+#: data/freedesktop.org.xml.in:6167
 msgid "LHS source code"
 msgstr "вихідний код LHS"
 
-#: freedesktop.org.xml.in:6087
+#: data/freedesktop.org.xml.in:6174
 msgid "application log"
 msgstr "журнал програми"
 
-#: freedesktop.org.xml.in:6092
+#: data/freedesktop.org.xml.in:6179
 msgid "Makefile build file"
 msgstr "файл збирання Makefile"
 
-#: freedesktop.org.xml.in:6105
+#: data/freedesktop.org.xml.in:6192
 msgid "Markdown document"
 msgstr "документ Markdown"
 
-#: freedesktop.org.xml.in:6113
+#: data/freedesktop.org.xml.in:6200
 msgid "Qt MOC file"
 msgstr "файл-метаоб'єкт Qt"
 
-#: freedesktop.org.xml.in:6120
+#: data/freedesktop.org.xml.in:6207
 msgid "Windows Registry extract"
 msgstr "частина реєстру Windows"
 
-#: freedesktop.org.xml.in:6130
+#: data/freedesktop.org.xml.in:6217
 msgid "MOF file"
 msgstr "файл MOF"
 
-#: freedesktop.org.xml.in:6137
+#: data/freedesktop.org.xml.in:6224
 msgid "Mup musical composition document"
 msgstr "документ музичного запису твору Mup"
 
-#: freedesktop.org.xml.in:6146
+#: data/freedesktop.org.xml.in:6233
 msgid "Objective-C source code"
 msgstr "вихідний код мовою Objective-C"
 
-#: freedesktop.org.xml.in:6154
+#: data/freedesktop.org.xml.in:6241
 msgid "OCaml source code"
 msgstr "первинний код мовою OCaml"
 
-#: freedesktop.org.xml.in:6159
+#: data/freedesktop.org.xml.in:6246
 msgid "OpenCL source code"
 msgstr "вихідний код мовою OpenCL"
 
-#: freedesktop.org.xml.in:6166
+#: data/freedesktop.org.xml.in:6253
 msgid "MATLAB file"
 msgstr "файл MATLAB"
 
-#: freedesktop.org.xml.in:6181
+#: data/freedesktop.org.xml.in:6268
 msgid "Meson source code"
 msgstr "вихідний код мовою Meson"
 
-#: freedesktop.org.xml.in:6187
+#: data/freedesktop.org.xml.in:6274
 msgid "Modelica model"
 msgstr "модель Modelica"
 
-#: freedesktop.org.xml.in:6207
+#: data/freedesktop.org.xml.in:6294
 msgid "Pascal source code"
 msgstr "вихідний код мовою Pascal"
 
-#: freedesktop.org.xml.in:6213
+#: data/freedesktop.org.xml.in:6300
 msgid "differences between files"
 msgstr "різниця між файлами"
 
-#: freedesktop.org.xml.in:6232
+#: data/freedesktop.org.xml.in:6319
 msgid "Go source code"
 msgstr "вихідний код мовою Go"
 
-#: freedesktop.org.xml.in:6237
+#: data/freedesktop.org.xml.in:6324
 msgid "SCons configuration file"
 msgstr "файл налаштувань SCons"
 
-#: freedesktop.org.xml.in:6244
+#: data/freedesktop.org.xml.in:6331
 msgid "Python 3 script"
 msgstr "скрипт мовою Python 3"
 
-#: freedesktop.org.xml.in:6263
+#: data/freedesktop.org.xml.in:6350
 msgid "Python script"
 msgstr "скрипт мовою Python"
 
-#: freedesktop.org.xml.in:6283
+#: data/freedesktop.org.xml.in:6370
+msgid "SageMath script"
+msgstr "скрипт SageMath"
+
+#: data/freedesktop.org.xml.in:6375
 msgid "Lua script"
 msgstr "скрипт Lua"
 
-#: freedesktop.org.xml.in:6295
+#: data/freedesktop.org.xml.in:6387
 msgid "README document"
 msgstr "документ README"
 
-#: freedesktop.org.xml.in:6300
+#: data/freedesktop.org.xml.in:6392
 msgid "NFO document"
 msgstr "документ NFO"
 
-#: freedesktop.org.xml.in:6305
+#: data/freedesktop.org.xml.in:6397
 msgid "RPM spec file"
 msgstr "spec-файл RPM"
 
-#: freedesktop.org.xml.in:6316
+#: data/freedesktop.org.xml.in:6408
 msgid "Sass CSS pre-processor file"
 msgstr "файл препроцесора CSS Sass"
 
-#: freedesktop.org.xml.in:6324
+#: data/freedesktop.org.xml.in:6416
 msgid "Scala source code"
 msgstr "вихідний код мовою Scala"
 
-#: freedesktop.org.xml.in:6329
+#: data/freedesktop.org.xml.in:6421
 msgid "Scheme source code"
 msgstr "вихідний файл мовою Scheme"
 
-#: freedesktop.org.xml.in:6335
+#: data/freedesktop.org.xml.in:6427
 msgid "SCSS pre-processor file"
 msgstr "файл засобу попередньої обробки SCSS"
 
-#: freedesktop.org.xml.in:6343
+#: data/freedesktop.org.xml.in:6435
 msgid "Setext document"
 msgstr "документ Setext"
 
-#: freedesktop.org.xml.in:6348
+#: data/freedesktop.org.xml.in:6440
 msgid "SQL code"
 msgstr "код SQL"
 
-#: freedesktop.org.xml.in:6354
+#: data/freedesktop.org.xml.in:6446
 msgid "Tcl script"
 msgstr "скрипт Tcl"
 
-#: freedesktop.org.xml.in:6360
+#: data/freedesktop.org.xml.in:6453
 msgid "TeX document"
 msgstr "документ TeX"
 
-#: freedesktop.org.xml.in:6378
+#: data/freedesktop.org.xml.in:6471
 msgid "TeXInfo document"
 msgstr "документ TeXInfo"
 
-#: freedesktop.org.xml.in:6384
+#: data/freedesktop.org.xml.in:6477
 msgid "Troff ME input document"
 msgstr "вхідний документ Troff ME"
 
-#: freedesktop.org.xml.in:6389
+#: data/freedesktop.org.xml.in:6482
 msgid "Troff MM input document"
 msgstr "вхідний документ Troff MM"
 
-#: freedesktop.org.xml.in:6394
+#: data/freedesktop.org.xml.in:6487
 msgid "Troff MS input document"
 msgstr "вхідний документ Troff MS"
 
-#: freedesktop.org.xml.in:6399
+#: data/freedesktop.org.xml.in:6492
 msgid "Twig template"
 msgstr "шаблон twig"
 
-#: freedesktop.org.xml.in:6405
+#: data/freedesktop.org.xml.in:6498
 msgid "X-Motif UIL table"
 msgstr "таблиця X-Motif UIL"
 
-#: freedesktop.org.xml.in:6410
+#: data/freedesktop.org.xml.in:6503
 msgid "resource location"
 msgstr "розташування ресурсу"
 
-#: freedesktop.org.xml.in:6415
+#: data/freedesktop.org.xml.in:6508
 msgid "uuencoded file"
 msgstr "файл даних у форматі UUE"
 
-#: freedesktop.org.xml.in:6424
+#: data/freedesktop.org.xml.in:6517
+msgid "VBScript program"
+msgstr "програма мовою VBScript"
+
+#: data/freedesktop.org.xml.in:6524
 msgid "XMI file"
 msgstr "файл XMI"
 
-#: freedesktop.org.xml.in:6433
+#: data/freedesktop.org.xml.in:6533
 msgid "XSL FO file"
 msgstr "файл XSL FO"
 
-#: freedesktop.org.xml.in:6442
+#: data/freedesktop.org.xml.in:6542
 msgid "iptables configuration file"
 msgstr "файл налаштувань iptables"
 
-#: freedesktop.org.xml.in:6467
+#: data/freedesktop.org.xml.in:6567
 msgid "D-Bus service file"
 msgstr "файл служби D-Bus"
 
-#: freedesktop.org.xml.in:6476
+#: data/freedesktop.org.xml.in:6576
 msgid "systemd unit file"
 msgstr "файл модуля systemd"
 
-#: freedesktop.org.xml.in:6520
+#: data/freedesktop.org.xml.in:6620
 msgid "XSLT stylesheet"
 msgstr "таблиця стилів XSLT"
 
-#: freedesktop.org.xml.in:6533
+#: data/freedesktop.org.xml.in:6633
 msgid "Maven description file"
 msgstr "файл опису Maven"
 
-#: freedesktop.org.xml.in:6540
+#: data/freedesktop.org.xml.in:6640
 msgid "XMCD CD database"
 msgstr "база даних XMCD CD"
 
-#: freedesktop.org.xml.in:6547
+#: data/freedesktop.org.xml.in:6647
 msgid "XML document"
 msgstr "документ XML"
 
-#: freedesktop.org.xml.in:6563
+#: data/freedesktop.org.xml.in:6662
 msgid "XML entities document"
 msgstr "документ об’єктів XML"
 
-#: freedesktop.org.xml.in:6572
+#: data/freedesktop.org.xml.in:6671
 msgid "DV video"
 msgstr "відеокліп DV"
 
-#: freedesktop.org.xml.in:6581
+#: data/freedesktop.org.xml.in:6680
 msgid "ISI video"
 msgstr "відеокліп ISI"
 
-#: freedesktop.org.xml.in:6584
+#: data/freedesktop.org.xml.in:6683
 msgid "MPEG-2 transport stream"
 msgstr "потік передавання даних MPEG-2"
 
-#: freedesktop.org.xml.in:6619
+#: data/freedesktop.org.xml.in:6718
 msgid "MPEG video"
 msgstr "відеокліп MPEG"
 
-#: freedesktop.org.xml.in:6639
+#: data/freedesktop.org.xml.in:6738
 msgid "MPEG video (streamed)"
 msgstr "відеокліп MPEG (потоковий)"
 
-#: freedesktop.org.xml.in:6650
+#: data/freedesktop.org.xml.in:6749
 msgid "QuickTime video"
 msgstr "відеокліп QuickTime"
 
-#: freedesktop.org.xml.in:6663
+#: data/freedesktop.org.xml.in:6762
 msgid "QuickTime image"
 msgstr "зображення QuickTime"
 
-#: freedesktop.org.xml.in:6671
+#: data/freedesktop.org.xml.in:6770 data/freedesktop.org.xml.in:6781
 msgid "Khronos texture image"
 msgstr "зображення текстури Khronos"
 
-#: freedesktop.org.xml.in:6682
+#: data/freedesktop.org.xml.in:6792
+msgid "ASTC texture"
+msgstr "текстура ASTC"
+
+#: data/freedesktop.org.xml.in:6801
 msgid "Vivo video"
 msgstr "відео Vivo"
 
-#: freedesktop.org.xml.in:6688
+#: data/freedesktop.org.xml.in:6807
 msgid "Wavelet video"
 msgstr "відеокліп Wavelet"
 
-#: freedesktop.org.xml.in:6691
+#: data/freedesktop.org.xml.in:6810
 msgid "ANIM animation"
 msgstr "анімація ANIM"
 
-#: freedesktop.org.xml.in:6695
+#: data/freedesktop.org.xml.in:6814
 msgid "FLIC animation"
 msgstr "анімація FLIC"
 
-#: freedesktop.org.xml.in:6706
+#: data/freedesktop.org.xml.in:6825
 msgid "Haansoft Hangul document"
 msgstr "документ Haansoft Hangul"
 
-#: freedesktop.org.xml.in:6715
+#: data/freedesktop.org.xml.in:6834
 msgid "Haansoft Hangul document template"
 msgstr "шаблон документа Haansoft Hangul"
 
-#: freedesktop.org.xml.in:6721
+#: data/freedesktop.org.xml.in:6840
 msgid "MNG animation"
 msgstr "анімація MNG"
 
-#: freedesktop.org.xml.in:6730
+#: data/freedesktop.org.xml.in:6849
 msgid "ASF video"
 msgstr "відеокліп ASF"
 
-#: freedesktop.org.xml.in:6743
+#: data/freedesktop.org.xml.in:6862
 msgid "Windows Media Station file"
 msgstr "файл Windows Media Station"
 
-#: freedesktop.org.xml.in:6752
+#: data/freedesktop.org.xml.in:6871
 msgid "Windows Media video"
 msgstr "відеокліп Windows Media"
 
-#: freedesktop.org.xml.in:6757
+#: data/freedesktop.org.xml.in:6876
 msgid "AVI video"
 msgstr "відеокліп AVI"
 
-#: freedesktop.org.xml.in:6778
+#: data/freedesktop.org.xml.in:6897
 msgid "NullSoft video"
 msgstr "відеокліп NullSoft"
 
-#: freedesktop.org.xml.in:6785
+#: data/freedesktop.org.xml.in:6904
 msgid "SDP multicast stream file"
 msgstr "файл потокової трансляції SDP"
 
-#: freedesktop.org.xml.in:6800
+#: data/freedesktop.org.xml.in:6919
 msgid "SGI video"
 msgstr "відеокліп SGI"
 
-#: freedesktop.org.xml.in:6807
+#: data/freedesktop.org.xml.in:6926
 msgid "eMusic download package"
 msgstr "пакунок завантаження eMusic"
 
-#: freedesktop.org.xml.in:6815
+#: data/freedesktop.org.xml.in:6934
 msgid "KML geographic data"
 msgstr "географічні дані KML"
 
-#: freedesktop.org.xml.in:6823
+#: data/freedesktop.org.xml.in:6942
 msgid "KML geographic compressed data"
 msgstr "стиснуті географічні дані KML"
 
-#: freedesktop.org.xml.in:6830
+#: data/freedesktop.org.xml.in:6949
 msgid "GeoJSON geospatial data"
 msgstr "геопросторові дані GeoJSON"
 
-#: freedesktop.org.xml.in:6837
+#: data/freedesktop.org.xml.in:6956
 msgid "GPX geographic data"
 msgstr "географічні дані GPX"
 
-#: freedesktop.org.xml.in:6849
+#: data/freedesktop.org.xml.in:6968
 msgid "Citrix ICA settings file"
 msgstr "файл параметрів ICA Citrix"
 
-#: freedesktop.org.xml.in:6857
+#: data/freedesktop.org.xml.in:6976
 msgid "XUL interface document"
 msgstr "документ інтерфейсу XUL"
 
-#: freedesktop.org.xml.in:6866
+#: data/freedesktop.org.xml.in:6985
 msgid "XPInstall installer module"
 msgstr "модуль засобу встановлення XPInstall"
 
-#: freedesktop.org.xml.in:6871
+#: data/freedesktop.org.xml.in:6990
 msgid "Word 2007 document"
 msgstr "документ Word 2007"
 
-#: freedesktop.org.xml.in:6877
+#: data/freedesktop.org.xml.in:6996
 msgid "Word 2007 document template"
 msgstr "шаблон документа Word 2007"
 
-#: freedesktop.org.xml.in:6883
+#: data/freedesktop.org.xml.in:7002
 msgid "PowerPoint 2007 presentation"
 msgstr "презентація PowerPoint 2007"
 
-#: freedesktop.org.xml.in:6889
+#: data/freedesktop.org.xml.in:7008
 msgid "PowerPoint 2007 slide"
 msgstr "слайд PowerPoint 2007"
 
-#: freedesktop.org.xml.in:6895
+#: data/freedesktop.org.xml.in:7014
 msgid "PowerPoint 2007 show"
 msgstr "показ слайдів PowerPoint 2007"
 
-#: freedesktop.org.xml.in:6901
+#: data/freedesktop.org.xml.in:7020
 msgid "PowerPoint 2007 presentation template"
 msgstr "шаблон презентації PowerPoint 2007"
 
-#: freedesktop.org.xml.in:6907
+#: data/freedesktop.org.xml.in:7026
 msgid "Excel 2007 spreadsheet"
 msgstr "ел. таблиця Excel 2007"
 
-#: freedesktop.org.xml.in:6913
+#: data/freedesktop.org.xml.in:7032
 msgid "Excel 2007 spreadsheet template"
 msgstr "шаблон електронної таблиці Excel 2007"
 
-#: freedesktop.org.xml.in:6919
+#: data/freedesktop.org.xml.in:7038
 msgid "T602 document"
 msgstr "документ T602"
 
-#: freedesktop.org.xml.in:6929
+#: data/freedesktop.org.xml.in:7048
 msgid "Cisco VPN settings"
 msgstr "параметри VPN Cisco"
 
-#: freedesktop.org.xml.in:6939
+#: data/freedesktop.org.xml.in:7058
 msgid "ICC profile"
 msgstr "профіль ICC"
 
-#: freedesktop.org.xml.in:6947
+#: data/freedesktop.org.xml.in:7066
 msgid "IT 8.7 color calibration file"
 msgstr "файл калібрування кольорів IT 8.7"
 
-#: freedesktop.org.xml.in:6956
+#: data/freedesktop.org.xml.in:7075
 msgid "CCMX color correction file"
 msgstr "файл даних виправлення кольорів CCMX"
 
-#: freedesktop.org.xml.in:6965
+#: data/freedesktop.org.xml.in:7084
 msgid "WinHelp help file"
 msgstr "файл довідки WinHelp"
 
-#: freedesktop.org.xml.in:6973
+#: data/freedesktop.org.xml.in:7092
 msgid "binary differences between files"
 msgstr "двійкова різниця між файлами"
 
 #. http://en.wikipedia.org/wiki/Design_rule_for_Camera_File_system
-#: freedesktop.org.xml.in:6984
+#: data/freedesktop.org.xml.in:7103
 msgid "digital photos"
 msgstr "цифрові фотографії"
 
 #. TRANSLATORS: This is a brand-name, not a generic term. Please see
 #. http://en.wikipedia.org/wiki/Video_CD
 #. http://www.herongyang.com/CD-DVD/VCD-Movie-File-Directory-Structure.html
-#: freedesktop.org.xml.in:6994
+#: data/freedesktop.org.xml.in:7113
 msgid "Video CD"
 msgstr "Video CD"
 
 #. TRANSLATORS: This is a brand-name, not a generic term. Please see
 #. http://en.wikipedia.org/wiki/Super_Video_CD
 #. http://everything2.com/index.pl?node_id=1009222
-#: freedesktop.org.xml.in:7004
+#: data/freedesktop.org.xml.in:7123
 msgid "Super Video CD"
 msgstr "Super Video CD"
 
 #. http://en.wikipedia.org/wiki/DVD-Video
-#: freedesktop.org.xml.in:7012
+#: data/freedesktop.org.xml.in:7131
 msgid "video DVD"
 msgstr "відео-DVD"
 
 #. http://en.wikipedia.org/wiki/Red_Book_(audio_CD_standard)
-#: freedesktop.org.xml.in:7023
+#: data/freedesktop.org.xml.in:7142
 msgid "audio CD"
 msgstr "звуковий CD"
 
 #. http://en.wikipedia.org/wiki/Compact_Disc
-#: freedesktop.org.xml.in:7028
+#: data/freedesktop.org.xml.in:7147
 msgid "blank CD disc"
 msgstr "порожній компакт-диск"
 
 #. http://en.wikipedia.org/wiki/DVD
-#: freedesktop.org.xml.in:7033
+#: data/freedesktop.org.xml.in:7152
 msgid "blank DVD disc"
 msgstr "порожній диск DVD"
 
 #. http://en.wikipedia.org/wiki/Blu-ray_Disc
-#: freedesktop.org.xml.in:7038
+#: data/freedesktop.org.xml.in:7157
 msgid "blank Blu-ray disc"
 msgstr "порожній диск Blu-ray"
 
 #. http://en.wikipedia.org/wiki/HD_DVD
-#: freedesktop.org.xml.in:7043
+#: data/freedesktop.org.xml.in:7162
 msgid "blank HD DVD disc"
 msgstr "порожній диск HD DVD"
 
 #. http://en.wikipedia.org/wiki/DVD-Audio
-#: freedesktop.org.xml.in:7048
+#: data/freedesktop.org.xml.in:7167
 msgid "audio DVD"
 msgstr "звуковий DVD"
 
 #. http://en.wikipedia.org/wiki/Blu-ray_Disc
 #. http://www.blu-raydisc.com/Section-13470/Section-13890/Index.html
-#: freedesktop.org.xml.in:7058
+#: data/freedesktop.org.xml.in:7177
 msgid "Blu-ray video disc"
 msgstr "відеодиск Blu-ray"
 
 #. http://en.wikipedia.org/wiki/HD_DVD
 #. http://www.dvdafteredit.com/wiki/The_HVDVD_TS_Folder
-#: freedesktop.org.xml.in:7068
+#: data/freedesktop.org.xml.in:7187
 msgid "HD DVD video disc"
 msgstr "відеодиск HD DVD"
 
 #. see fd.o hal spec
-#: freedesktop.org.xml.in:7078
+#: data/freedesktop.org.xml.in:7197
 msgid "e-book reader"
 msgstr "пристрій для читання електронних книг"
 
 #. TRANSLATORS: This is a brand-name, not a generic term. Please see
 #. http://en.wikipedia.org/wiki/Picture_CD
 #. http://www.re.org/kristin/picturecd.html
-#: freedesktop.org.xml.in:7089
+#: data/freedesktop.org.xml.in:7208
 msgid "Picture CD"
 msgstr "CD з зображеннями"
 
 #. see fd.o hal spec
-#: freedesktop.org.xml.in:7097
+#: data/freedesktop.org.xml.in:7216
 msgid "portable audio player"
 msgstr "портативний аудіопрогравач"
 
 #. https://github.com/ostreedev/ostree/blob/master/man/ostree-create-usb.xml
-#: freedesktop.org.xml.in:7102
+#: data/freedesktop.org.xml.in:7221
 msgid "OSTree software updates"
 msgstr "оновлення програмного забезпечення OSTree"
 
 #. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
 #. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
-#: freedesktop.org.xml.in:7113
+#: data/freedesktop.org.xml.in:7232
 msgid "software"
 msgstr "програмне забезпечення"
 
 #. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
 #. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
-#: freedesktop.org.xml.in:7119
+#: data/freedesktop.org.xml.in:7238
 msgid "UNIX software"
 msgstr "програмне забезпечення UNIX"
 
 #. http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
 #. http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3
-#: freedesktop.org.xml.in:7131
+#: data/freedesktop.org.xml.in:7250
 msgid "Windows software"
 msgstr "програмне забезпечення Windows"
 
-#: freedesktop.org.xml.in:7140
+#: data/freedesktop.org.xml.in:7259
 msgid "TriG RDF document"
 msgstr "документ RDF TriG"
 
-#: freedesktop.org.xml.in:7149
+#: data/freedesktop.org.xml.in:7268
 msgid "Apple Keynote 5 presentation"
 msgstr "презентація Apple Keynote 5"
 
-#: freedesktop.org.xml.in:7162
+#: data/freedesktop.org.xml.in:7281
 msgid "Adobe PageMaker document"
 msgstr "документ Adobe PageMaker"
 
-#: freedesktop.org.xml.in:7172
+#: data/freedesktop.org.xml.in:7291
 msgid "Doom WAD file"
 msgstr "файл WAD Doom"
 
-#: freedesktop.org.xml.in:7184
+#: data/freedesktop.org.xml.in:7303
 msgid "Amiga disk image"
 msgstr "образ диска Amiga"
 
-#: freedesktop.org.xml.in:7192
+#: data/freedesktop.org.xml.in:7311
 msgid "Flatpak application bundle"
 msgstr "пакунок із програмами Flatpak"
 
-#: freedesktop.org.xml.in:7204
+#: data/freedesktop.org.xml.in:7323
 msgid "Flatpak repository description"
 msgstr "опис сховища Flatpak"
 
-#: freedesktop.org.xml.in:7214
+#: data/freedesktop.org.xml.in:7333
 msgid "Flatpak repository reference"
 msgstr "посилання на сховище Flatpak"
 
-#: freedesktop.org.xml.in:7224
+#: data/freedesktop.org.xml.in:7343
 msgid "Squashfs filesystem image"
 msgstr "образ файлової системи squashfs"
 
-#: freedesktop.org.xml.in:7251
+#: data/freedesktop.org.xml.in:7370
 msgid "Snap package"
 msgstr "пакунок snap"
 
-#: freedesktop.org.xml.in:7258
+#: data/freedesktop.org.xml.in:7377
 msgid "STL 3D model"
 msgstr "просторова модель STL"
 
-#: freedesktop.org.xml.in:7271
+#: data/freedesktop.org.xml.in:7390
 msgid "G-code file"
 msgstr "файл G-code"
 
-#: freedesktop.org.xml.in:7278
+#: data/freedesktop.org.xml.in:7397
 msgid "Nintendo FDS disk image"
 msgstr "образ диска FDS Nintendo"
+
+#: data/freedesktop.org.xml.in:7407
+msgid "QEMU QCOW disk image"
+msgstr "образ диска QCOW QEMU"
+
+#: data/freedesktop.org.xml.in:7420
+msgid "AppleWorks document"
+msgstr "документ AppleWorks"
+
+#: data/freedesktop.org.xml.in:7426
+msgid "BPS patch"
+msgstr "латка BPS"
+
+#: data/freedesktop.org.xml.in:7436
+msgid "IPS patch"
+msgstr "латка IPS"
+
+#: data/freedesktop.org.xml.in:7446
+msgid "Pyspread spreadsheet"
+msgstr "ел. таблиця Pyspread"
+
+#: data/freedesktop.org.xml.in:7454
+msgid "Pyspread spreadsheet (bzip-compressed)"
+msgstr "ел. таблиця Pyspread (стиснена bzip)"
+
+#: data/freedesktop.org.xml.in:7461
+msgid "Kotlin source code"
+msgstr "вихідний код мовою Kotlin"
+
+#: data/freedesktop.org.xml.in:7467
+msgid "AV1 Image File Format (AVIF)"
+msgstr "формат файлів зображень AV1 (AVIF)"

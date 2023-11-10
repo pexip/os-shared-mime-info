@@ -3,15 +3,15 @@ if meson.is_cross_build()
 endif
 
 if xdgmime_found
-    run_target('test-staging',
-        command: [
-            find_program('test_staging.sh'),
-            meson.source_root(),
-            meson.build_root(),
-            freedesktop_org_xml,
-            update_mime_database,
-            xdgmime_print_mime_data.path(),
-        ]
+    test('test-staging',
+         find_program('test_staging.sh'),
+         args: [
+             meson.source_root(),
+             meson.build_root(),
+             freedesktop_org_xml,
+             update_mime_database,
+             xdgmime_print_mime_data.path(),
+         ]
     )
 
     test('test-mime',
@@ -34,6 +34,16 @@ run_target('check-generic-icons',
 
 test('No duplicate mime-types',
     find_program('test_duplicate_mime_types.sh'),
+    args: freedesktop_org_xml,
+)
+
+test('Single spelling case',
+    find_program('test_case.py'),
+    args: freedesktop_org_xml,
+)
+
+test('Sanity check sub-class-of',
+    find_program('test_sub_class_ofs.py'),
     args: freedesktop_org_xml,
 )
 

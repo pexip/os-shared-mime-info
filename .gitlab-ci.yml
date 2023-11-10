@@ -1,0 +1,35 @@
+image: fedora:rawhide
+
+variables:
+  DEPENDENCIES: gcc
+                gcc-c++
+                glibc-devel
+                make
+                libxml2-devel
+                glib2-devel
+                gettext
+                git
+                xmlto
+                findutils
+                gettext-devel
+                meson
+  GIT_SUBMODULE_STRATEGY: normal
+
+build:meson:
+  before_script:
+    - dnf update -y --nogpgcheck
+    - dnf install -y --nogpgcheck $DEPENDENCIES
+  script:
+    # Compile xdgmime
+    - make -C xdgmime
+
+    # Compile and test shared-mime-info
+    - meson _build
+    - ninja -C _build
+    - ninja -C _build test
+    - ninja -C _build dist
+  artifacts:
+    when: always
+    paths:
+      - _build/meson-logs/*.txt
+      - _build/meson-dist/*.*
