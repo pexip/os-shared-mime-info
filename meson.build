@@ -1,8 +1,9 @@
 
 project('shared-mime-info',
-    'c',
-    version: '2.2',
-    meson_version: '>=0.49.0'
+    'c', 'cpp',
+    version: '2.4',
+    meson_version: '>=0.49.0',
+    default_options : ['cpp_std=c++17']
 )
 
 config = configuration_data()
@@ -48,15 +49,12 @@ endif
 ###############################################################################
 # Dependencies
 
-check_functions = [
-    'fdatasync',
-]
-foreach function : check_functions
-    config.set('HAVE_'+function.to_upper(), cc.has_function(function))
-endforeach
+config.set('HAVE_FDATASYNC', cc.has_function('fdatasync', prefix: '#include <unistd.h>'))
 
 
-subdir('po')
+if get_option('build-translations')
+    subdir('po')
+endif
 subdir('data')
 if get_option('build-tools')
     libxml = dependency('libxml-2.0',   version: '>=2.4')
@@ -65,7 +63,9 @@ if get_option('build-tools')
     gio = dependency('gio-2.0', required: false)
     subdir('src')
 endif
-subdir('tests')
+if get_option('build-tests')
+    subdir('tests')
+endif
 
 configure_file(
     input: 'shared-mime-info.pc.in',
@@ -78,7 +78,7 @@ configure_file(
 )
 
 if get_option('update-mimedb')
-    upd_tool = (meson.is_cross_build()
+    upd_tool = (meson.is_cross_build() or not get_option('build-tools')
         ? find_program('update-mime-database').path()
         : update_mime_database.full_path()
     )

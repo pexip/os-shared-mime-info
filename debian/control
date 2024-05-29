@@ -5,16 +5,15 @@ Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@list
 Uploaders: Sebastian Dröge <slomo@debian.org>,
            Emilio Pozuelo Monfort <pochu@debian.org>,
 Build-Depends: debhelper-compat (= 13),
-               docbook-utils,
-               docbook-xml,
+               docbook-utils <!nodoc>,
+               docbook-xml <!nodoc>,
                gettext,
                itstool,
                libglib2.0-dev (>= 2.6.0),
                libxml2-dev (>= 2.4),
                libxml2-utils,
                meson (>= 0.54.0),
-               xmlto,
-Standards-Version: 4.6.0
+Standards-Version: 4.7.0
 Vcs-Git: https://salsa.debian.org/freedesktop-team/shared-mime-info.git
 Vcs-Browser: https://salsa.debian.org/freedesktop-team/shared-mime-info
 Homepage: https://freedesktop.org/wiki/Software/shared-mime-info
