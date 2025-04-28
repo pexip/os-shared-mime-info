@@ -1,0 +1,14 @@
+tests/mime-db-tests/XMLnamespaces
+tests/mime-db-tests/aliases
+tests/mime-db-tests/application/
+tests/mime-db-tests/generic-icons
+tests/mime-db-tests/globs
+tests/mime-db-tests/globs2
+tests/mime-db-tests/icons
+tests/mime-db-tests/magic
+tests/mime-db-tests/mime.cache
+tests/mime-db-tests/subclasses
+tests/mime-db-tests/text/
+tests/mime-db-tests/treemagic
+tests/mime-db-tests/types
+tests/mime-db-tests/version
